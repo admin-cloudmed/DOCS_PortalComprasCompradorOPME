@@ -1,0 +1,213 @@
+"pt-BR":
+  main_menu:
+    home: "Início"
+    docs: "Documentação"
+    get_in_touch: "Entre em contato"
+  errors:
+    not_found:
+      title: "Página não econtrada"
+      description: "Não foi possível encontrar a página solicitada."
+  general:
+    updated_at: "Atualizado em %{date}"
+    index: "Índice"
+  footer:
+    paragraph_1: "Os nomes e logotipos Portal de Compras são marcas registradas da CloudMed. Todos os direitos reservados."
+    get_in_touch: "Entre em contato"
+  portalopme:
+    index:
+      title: "Visão geral do serviço Portal de Compras"
+      table_of_contents:
+        index: "Índice"
+        how_it_works: "O que é?"
+        features_yield: "Funcionalidades e Finalidades."
+        who_uses: "Quem utiliza? (Quem Pode Utilizar?)"
+      how_it_works:
+        paragraph_1: "O Portal de Compras é uma solução para área de saúde no modelo <a href='http://pt.wikipedia.org/wiki/Software_como_serviço' target='blank' class='external'>SaaS</a>. É uma ferramenta que possibilita todo o acompanhamento e gestão das negociações, auditoria técnica e médica, controle de utilização do material cotado/provisionado na cirurgia, sua posterior aprovação para faturamento e possíveis divergências de materiais OPME, em lotes e em regime de leilão reverso, permitindo um maior poder de negociação, que geralmente são de alto custo."
+      features_yield:
+        paragraph_1: "O Portal de Compras é a solução da CloudMed que possibilita todo o acompanhamento e gestão das negociações de materiais OPME, auditoria técnica e médica, controle do material provisionado para a cirurgia, sua posterior aprovação para faturamento e possíveis divergências. Indicado para Operadoras de Planos de Saúde e Prestadores."
+        feature_1: "Características"
+        feature_2: "Desenvolvido em Sistema WEB, ou seja, sem necessidade de qualquer instalação (.exe);"
+        feature_3: "Oferece interação, comunicação e relacionamento entre os envolvidos;"
+        feature_4: "Permite a negociação simultânea de vários e diferentes materiais com os fornecedores;"
+        feature_5: "Segurança através de usuários por perfis personalizados;"
+        feature_6: "Permite o cadastro de novos fornecedores, novos produtos e de infinitos usuários;"
+        feature_7: "Oferece a geração de relatório de economia, cotação e faturamento;"
+        feature_8: "Permite a indexação de consultas, guias e quaisquer documentos necessários."
+        feature_9: "Benefícios"
+        feature_10: "Acessível por qualquer meio eletrônico que tenha internet (mobile, etc);"
+        feature_11: "Controle total do processo, desde a cotação até a utilização do material;"
+        feature_12: "Maior poder de negociação e compra dos materiais, que geralmente são de alto custo;"
+        feature_13: "Relatório e histórico, por perfil, de todas as etapas do processo a ser gerenciado;"
+        feature_14: "Visualização de consultas, exames e laudos, tornando o procedimento mais rápido, beneficiando o paciente."
+        feature_15: "Gestão do conhecimento e informações para planejamento e tomada de decisões;"
+        feature_16: "Ampla manutenção dos itens cadastrados, visando alinhar o melhor preço e qualidade, bem como o controle de validade do código ANVISA dos materiais;"
+      who_uses:
+        paragraph_1: "Nossa solução está no mercado há cinco anos, sendo atualmente utilizada pela Unimed Intrafederativa Nordeste Paulista e suas singulares, trabalhando na mais alta transparência, segurança e facilidade. Potenciais forças que podem utilizar nossa aplicação, são empresas como:"
+        item_1: "Hospitais"
+        item_2: "Operadores de Saúde Fornecedores de materiais OPME"
+        item_3: "Clínicas Cirurgicas"
+        item_4: "Todo seguimento de empresas que lidam com cotações de materiais de Orteses, Próteses e Materiais Especiais"
+  understanding_the_system:
+   index:
+      title: "Entendendo o Sistema"
+      table_of_contents:
+        index: "Índice" 
+        welcome: "Bem Vindo!" 
+        dashboard: "Dashboard"
+        mural: "Mural"
+      welcome:
+        item_1: "Olá, bem vindo ao Portal de Compras da CloudMed! Iniciaremos agora, um passeio pelo sistema e todas as suas telas, entendendo todos seus processos e por fim suas funcionalidades. Fique a vontade e qualquer dúvida entre em contato conosco!"
+      dashboard:
+        item_1: "Abaixo temos nosso Dashboard, ou se preferir nosso (Painel de Bordo)! Essa é a primeira visualização que você terá toda vez que entrar no Portal de Compras, aqui fica reunído de uma forma simples e objetiva todas as informações mais relevantes do sistema de acordo com a sua movimentação e com o perfil de seu usuário. Perceba na parte superior direita da tela, o campo de busca, nele é possivel buscar qualquer informação digitando somente uma palavra ou frase, dependendo do filtro que você colocar, o sistema te levará diretamente à essa informação ou mostrará uma lista de informações encontradas de acordo com o que foi digitado. Abuse dessa tela! Ela foi desenvolvida com os pensamentos voltados para uma melhor informação e agilidade de nossos usuários!"
+        item_2: "Dashboard"
+      mural:
+        item_1: "Abaixo apresentamos nosso mural. Nele, além de conseguir publicar qualquer informação para visualização dos outros usuários no sistema, você também visualiza as publicações que eles fazem, dessa forma, informar e ser informado fica rápido e prático, dispensando certas formalidades e contratempos para ciência da informação de todos."
+        item_2: "Mural"
+  menu_principal:
+   index:
+      title: "Menu Principal"
+      table_of_contents: 
+        index: "Índice"
+        menu_principal: ">Menu Principal"
+        menu_principal_dashboard: ">Dashboard"
+        menu_principal_solicitar_opme: "> Solicitar OPME"
+        menu_principal_orcamentos: "> Orçamentos"
+        menu_principal_relatorios: "> Relatórios"
+        menu_principal_configuracoes: "> Configurações"
+      menu_principal:
+        item_1: "Abaixo você vê menu principal do sistema, ele sempre estará presente e visível no topo da tela do sistema, disponibilizando as ações para o usuário de acordo com suas permissões previamente definidas."
+        item_2: "Menu Principal"
+      menu_principal_dashboard:
+        item_1: "Aqui o sistema te leva para o dashboard tela que reúne as informações mais importantes do sistema e portal de acesso rápido a qualquer parde sobre ele, veja abaixo:"
+        item_2: "Menu Principal > Dashboard"
+        item_3: "Dashboard"
+      menu_principal_solicitar_opme:
+        item_1: "Em solicitar OPME você dá inicio ao processos de mais um orçamento no sistema veja como logo abaixo."
+        item_2: "Menu Principal > Solicitar OPME"
+        item_3: "Solicitar OPME"
+      menu_principal_orcamentos:
+        item_1: "Seguindo o menu Orçamentos, o sistema te oferecerá algumas opções para acompanhar os orçamentos e os status que em que se encontram:"
+        item_2: "Produtos Vencidos"
+        item_3: "Produtos Vendidos"
+        item_4: "Top Compradores"
+        item_5: "Menu Principal > Orçamentos"
+      menu_principal_relatorios:
+        item_1: "Em relatórios, você consegue ter a visualização e o controle exato de todos os pedidos de cotação e orçamentos que receber, acompanhe abaixo:"
+        item_2: "Produtos Vencidos"
+        item_3: "Produtos Vendidos"
+        item_4: "Top Compradores"
+        item_5: "Top Produtos"
+        item_6: "Menu Principal > Relatórios"
+      menu_principal_configuracoes:
+        item_1: "Além das configurações básicas para o sistema, o menu Configurações te leva para os cadastros dos produtos, onde sempre necessário atualizar as informações para que seus clientes fiquem informados, seguem as opções:"
+        item_2: "Meus Dados"
+        item_3: "Lista de Produtos"
+        item_4: "Valores Vencidos"
+        item_5: "Relacionar Produtos"
+        item_6: "Valorizar Produtos"
+        item_7: "Convidar Comprador"
+        item_8: "Menu Principal > Configurações"
+  solicitar_opme:
+   index:
+      title: "Solicitar OPME"
+      table_of_contents: 
+        index: "Índice"
+        solicitar_opme: "Solicitar OPME"
+      solicitar_opme:
+        item_1: "Menu > Solicitar OPME"
+        item_2: "Começamos por aqui, esse é o primeiro passo para darmos início a um novo orçamento para ser cotado no Portal de Compras CloudMed! Primeiramente as infrmações necessárias para criar a base de um orçamento são: Empresa Prestadora , Empresa Origem, Data da Solicitação, a Data Prevista, o Nome, Código e o Cartão do Paciente, o Prestador, Telefone do Consultório, o Local de Atendimento, o Tipo de Atendimento, o Procedimento Médico e o CID.		Veja abaixo como é distribuida a solicitação desses dados para a criação de um novo orçamento:"
+        item_3: "Tela Solicitar OPME"
+        item_4: "Após colocar essas informações e clicar em continuar, veja abaixo que o sistema te leva para uma próxima página onde vamos escolher todos os produtos que participarão das cotações, essa tela te proprociona vários filtros para que você busque facilmente o produto que deseja. Veja:"
+        item_5: "Seleção de produtos para o orçamento"
+        item_6: "Colocando filtros ou não, clicando no botão 'Pesquisar' na tela acima, o sistema fará uma busca pelos produtos cadastrados no sistema e te retornará uma lista de produtos que podem ser adicionados para cotação no orçamento. Veja na tela abaixo que a página exibe, pra cada produto, informações como o fornecedor, a marca, código anvisa e etc. Assim você tem um overview do produto antes de selecioná-lo. Para selecionar, note que ao lado de cada produto existe um carrinho de compras, clicando nele, ele passa da cor azul para cor verde, isso indica que ele já foi selecionado para o orçamento. Para retirá-lo do orçamento, basta clicar no carrinho novamente que ele volta para seu estado normal (cor azul), fora das cotações."
+        item_7: "Adição de Produtos no Orçamento"
+        item_8: "Após adicionar todos os produtos clicando no carrinho de compras, desça a página e verá que esses produtos também serão listados no rodapé da página, clicando em continuar você será encaminhado para a página logo abaixo. Nela, você pode fazer mais uma confirmação dos produtos que realmente vão para o orçamento, pode também definir a quantidade de cada produto no orçamento e também pode adicionar alguma observação (não obrigatória) para o orçamento, assim os próximos usuários que forem prosseguir com o orçamento poderão ter essa anotação como referência. "
+        item_9: "Confirmação de Produtos no Orçamento"
+        item_10: "Pronto, você acaba de inserir mais um orçamento para ser cotado pelo Portal de Compras CloudMed! Repare abaixo que o orçamento quando criado sempre fica com seu status (Aberto) destacdo a frente de seu número (62905), isso ajudará bastante para ter controle sobre o orçamento pesquisado em todo o sistema. :)"
+        item_11: "Orçamento Aberto"
+  orcamentos:
+   index:
+      title: "Orçamentos"
+      table_of_contents: 
+        index: "Índice"
+        faturados: "Faturados/10 dias"
+        notas_fiscais: "Aguardando Notas Fiscais"
+        pendentes: "Pendente Fornecedor"
+      faturados:
+        item_1: "Menu > Orçamentos > Faturados/10 dias"
+        item_2: "Em 'Orçamentos > Faturados 10 dias' encontramos todos os orçamentos que foram aprovados pelos seus compradores nos últimos 10 dias. Na tela abaixo você visualiza todos os orçamentos que estão neste status e algumas de suas informações, para ver mais detalhes do orçamento, bata clicar em seu número no link logo a esqueda de cada orçamento lisatado"
+        item_3: "Lista de Orçamentos Faturados/10 dias"
+        item_4: "Carregando o orçamento, abaixo você tem um exemplo da tela que é exibida. Nela, conseguimos visualizar todos os dados do pedido e os produtos que foram faturados, assim, fica fácil verificar os dados para que os próximos passos da venda sejam feitos."
+        item_5: "Orçamento Faturado"
+      notas_fiscais:
+        item_1: "Menu > Orçamentos > Aguardando Notas Fiscais"
+        item_2: "No menu 'Orçamentos > Aguardando Notas Fiscais' o sistema exibe temos todos os orçamentos que já foram aprovados pelos seus compradores e estão aguardando a emissão da nota fiscal. Abaixo você tem a visualização desse conteúdo e também consegue acessar facilmente os detalhes do orçamento clicando em seu número logo a esqueda de cada orçamento. Se essa opção não estiver aparecendo em seu menu, fique tranquilo, pois não existem orçamentos nesse status!"
+        item_3: "Orçamentos Aguardando Notas Fiscais"
+        item_4: "Clicando em um orçamento, conseguimos visualizar todos os dados do orçamento e dos produtos que foram faturados. Para anexar os arquivos da nota fiscal e fazer que seu ciente veja, você deve clicar na aba 'Arquivos Anexos' como a tela abaixo especifica e pede para fazer"
+        item_5: "Orçamento Aguardando Nota/s Fiscal/is"
+        item_6: "Clicando e entrando na tela, marque a opção 'Nota Fiscal' e repare no botão 'Escolher arquivo', clicando nele você consegue anexar os documentos referentes a nota fiscal do orçamento selecionado, além disso, antes de clicar em 'Concluir' você consegue adicionar uma descrição para o que está sendo anexado. Concluindo, seu cliente consegue tem acesso e visualiza os documentos e a descrição que você deixar"
+        item_7: "Anexando arquivo(NFs) a um Orçamento"
+      pendentes:
+        item_1: "Menu > Orçamentos > Pendentes Fornecedor"
+        item_2: "Aqui é onde a atenção ao sistema deve se concentrar, toda vez que um cliente fizer uma cotação, você receberá o e-mail de notificação, caso você não possa retornar no mesmo momento pelo e-mail, todos os orçamentos se concentrarão nessa parte do sistema. É aqui que você visualizará todos os produtos que foram cotados pelos seus clientes, veja abaixo:"
+        item_3: "Orçamentos Pendentes"
+        item_4: "Sendo bastante intuitiva essa tela, a única ação a ser feita é a valorização do produto cotado e o envio da informação de volta ao cliente. Se você não quiser participar dessa cotação de produtos, basta clicar em 'Não Participar' que o produto não aparecerá mais para cotação."
+  relatorios:
+   index:
+      title: "Relatórios"
+      table_of_contents: 
+        index: "Índice"
+        produtos_vencidos: "Produtos Vencidos"
+        produtos_vendidos: "Produtos Vendidos"
+        top_compradores: "Top Compradores"
+        top_produtos: "Top Produtos"
+      produtos_vencidos:
+        item_1: "Menu > Relatórios > Produtos Vencidos"
+        item_2: "Aqui temos o relatório de produtos vencidos, aqui você consegue ter o controle de todos os produtos que tem o código Anvisa vencido veja:"
+        item_3: "Relatório Produtos Vencidos"
+        item_4: "Repare que o sistema mostra uma lista bem simples e prática para que você veja quais são os produtos fornecidos que estão com o código anvisa vencido pelo Ministério da Saúde. Veja também que acima da tela o sistema te oferece dois campos para pesquisa que facilitam sua busca."
+        item_5: "Não é somente este relatório que o Portal de Compras oferece, entre em contato com um de nossos representantes para consultar um de nossos pacotes que incluem mais relatórios comercial@cloudmed.io"
+  configuracoes:
+   index:
+      title: "Configurações"
+      table_of_contents: 
+        index: "Índice"
+        meus_dados: "Meus Dados"
+        lista_produtos: "Lista de Produtos"
+        valores_vencidos: "Valores Vencidos"
+        relacionar_produtos: "Relacionar Produtos"
+        valorizar_produtos: "Valorizar Produtos"
+        convidar_comprador: "Convidar Comprador"
+      meus_dados:
+        item_1: "Menu > Configurações > Meus Dados"
+        item_2: "Aqui na opção 'Meus Dados' você visualiza todas as informações referentes à empresa, informações fiscais, localização e contatos são necessários para que o sistema trabalhe corretamente entre todos os usuários que o utilizam. Veja abaixo como eles são dispostos a tela e como fazer sua inserção e edição: "
+        item_3: "Meus Dados"
+        item_4: "Clicando em 'Editar Dados' todas as informações na tela se tornam editáveis, assim, você pode alterar ou inserir os dados. Não esqueça que essas informações são frequentemente utlizadas pelo sistema para seu pelno funcionamento, então, esteja certo das informações que você irá colocar como e-mails, telefones, e informações fiscais como CNPJ, Inscrição Estadual e etc."
+        item_5: "Atenção!	É nessa parte do sistema que você define as informações da empresa, os produtos que você fornece, seus respectivos valores e etc. Também é aqui que você configura suas preferências no sistema, então, bastante cuidado e atenção ao inserir e modificar as informações nas seguintes telas."
+      lista_produtos:
+        item_1: "Menu > Configurações > Lista de Produtos"
+        item_2: "Seguindo o menu 'Configurações > Lista de Produtos' entramos em uma tela onde é disponibilizado diversos e diferentes tipos de filtros pra que você busque facilmente os produtos que fornece. Para listar e e visualizar todos os produtos que fornece, basta não colocar nenhum filtro e clicar em 'Pesquisar', mas, se deseja encontrar algum produto especifico, basta colocar nos campos a informação desejada para busca. Atenção, se você executar a pesquisa sem nenhum fltro e mesmo assim não aparecer nenhum resultado na lista, talvez você não tenha relacionado ao cadastro de sua empresa os produtos que fornece, para isso, veja esse tópico <a href='#relacionar_produtos_inner' target='blank'>Relacionar Produtos</a>"
+        item_3: "Pesquisa de Produtos"      
+        item_4: "Abaixo temos a lista de produtos, mostrando o resultado de uma pesquisa quando o sistema encontra um ou mais produtos. Aqui você visualiza a descrição do produto, o valor e o código anvisa de acordo com cada marca, repare o botão abaixo 'Adicionar/Remover Especialidades', clicando nele, você visualiza e edita as especialidades que esse produto é, podendo marcar e desmarcar os diferentes tipos de especialidades já disponíveis dentro do sistema.'"      
+        item_5: "Lista de Produtos"
+      valores_vencidos:
+        item_1: "Menu > Configurações > Valores Vencidos"
+        item_2: "No Portal de Compras, além de definir os valores de seus produtos, você também consegue colocar um prazo de validade nesse preço. Assim, manter o controle de suas ofertas fica facil e evita que você participe de cotações quando os valores de seus produtos estão vencidos. É exatamente nessa tela que você consegue verificar os produtos que estão com seus valores vencidos e consegue fazer a manutenção disso, veja:"
+        item_3: "Valores Vencidos"
+        item_4: "Clicando no lápis ao lado esquerdo do produto com o valor vencido, repare que o sistema liberará os campos para que você consiga fazer a edição tanto do valor quanto de sua validade, assim, ao finalizar clicando no botão de visto (۷) você  atualiza seu produto e ele já fica disponivel para novas cotções que entrarem no sistema. Simples e fácil!  :)"
+      relacionar_produtos:
+        item_1: "Menu > Configurações > Relacionar Produtos"
+        item_2: "O Portal de Compras já está com mais de 6 mil produtos cadastrados em sua base de dados, isso dispensa todo o trabalho de cadastro e manutenção das informações dos produtos por parte dos fornecedores. Assim, a única tarefa necessária do fornecedor é informar (relacionar) os produtos que fornece, isso evita fornecedores participarem de orçamentos que possuem produtos fora de sua escala de distribuição e mantém o controle de cada orçamento à cada fornecedor. Veja abaixo que para relacionar um produto, você deve pesquisá-lo antes, olhe os campos disponibilizados para busca:"
+        item_3: "Relacionar Produtos"
+        item_4: "Abaixo você vê o resultado de uma pesquisa de produtos a serem relacionados, para relacionar ele, basta checar os produtos na caixinha a esquerda, e, para finalizar, clique em 'Adicionar produtos selecionados' e pronto! Esse produto agora "
+        item_5: "Produtos relacionados/ à relacionar"
+      valorizar_produtos:
+        item_1: "Menu > Configurações > Valorizar Produtos"
+        item_2: "Após <a href='#relacionar_produtos_inner' target='blank'>Relacionar Produtos</a> à empresa, devemos agora colocar as informações dos produtos pertinentes a empresa. Seguindo no menu acima você chega a tela que é exibida abaixo, nela você visualiza todos os produtos que relacionou e consegue editar os dados que já vem pré-definidos no sistema pelo padrao do mercado. Veja:"
+        item_3: "Lista Produtos"
+        item_4: "Clicando no lápis a esquerda do produto, a tela abaixo é exibida. Veja que nela fica disponibilizados os seguintes campos para edição ( Valor Negociado, Valor de Mercado, Validade do Valor, Código Anvisa , Validade do Código Anvisa e Marca) preencha-os corretamente, clique em 'Atualizar' e pronto! Agora é só ficar de olho em <a href='#valores_vencidos_inner' target='blank'>Valores Vencidos</a> para não deixar nenhum produto com o valor vencido"
+        item_5: "Valorizar Produtos"
+      convidar_comprador:
+        item_1: "Menu > Configurações > Convidar Comprador"
+        item_2: "Aqui liberamos uma opção para expandirmos nossa ferramenta e torná-la um bem comum para todas as empresas do ramo. Se você trbalha ou conhece alguma empresa ou pessoa onde o Potal de Compras pode ajudar em seus processos, avise ela! Basta colocar o nome, e-mail e o telefone da empresa que o sistema enviará um e-mail convidando a pessoa a participar do Portal de Compras :)"
+        item_3: "Convidar Comprador"
