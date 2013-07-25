@@ -4,21 +4,61 @@
 <!--Indice -->
 <div id="navegador">
  	<center><ul>
+	<li><a href="#economia_inner"><%= I18n.t("relatorios.index.table_of_contents.economia") %></a></li>
 	<li><a href="#produtos_vencidos_inner"><%= I18n.t("relatorios.index.table_of_contents.produtos_vencidos") %></a></li>
+	<li><a href="#cotacao_inner"><%= I18n.t("relatorios.index.table_of_contents.cotacao") %></a></li>
+	<li><a href="#faturamento_inner"><%= I18n.t("relatorios.index.table_of_contents.faturamento") %></a></li>
 </ul></center>
 </div>	
-<!-- produtos_vencidos  -->
+<!-- Economia  -->
+<div id ="economia" > &nbsp </div>
+<h2 id="economia_inner"><%= I18n.t("relatorios.index.table_of_contents.economia") %></h2>
+<div class="row-fluid">
+	<center><img src="/img/relatorios/relatorios_economia.jpg" alt="Economia" /></center>
+	<p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.economia.item_1") %></p>
+	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("relatorios.index.economia.item_2") %></p>
+	<center><img src="/img/relatorios/.jpg" alt="Economia" /></center>
+	<p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.economia.item_3") %></p>
+	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("relatorios.index.economia.item_4") %></p>
+</div>
+<!-- Produtos Vencidos  -->
 <div id ="produtos_vencidos" > &nbsp </div>
 <h2 id="produtos_vencidos_inner"><%= I18n.t("relatorios.index.table_of_contents.produtos_vencidos") %></h2>
 <div class="row-fluid">
 	<center><img src="/img/relatorios/relatorios_produtos_vencidos.jpg" alt="Produtos Vencidos" /></center>
 	<p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.produtos_vencidos.item_1") %></p>
 	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("relatorios.index.produtos_vencidos.item_2") %></p>
-	<center><img src="/img/relatorios/produtos_vencidos.jpg" alt="Produtos Vencidos" /></center>
+	<center><img src="/img/relatorios/.jpg" alt="Produtos Vencidos" /></center>
 	<p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.produtos_vencidos.item_3") %></p>
 	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("relatorios.index.produtos_vencidos.item_4") %></p>
 </div>
-<p class="note" style="text-indent: 3em; text-align: justify;"><%= I18n.t("relatorios.index.produtos_vencidos.item_5") %></p>
+<!-- Cotação  -->
+<div id ="cotacao" > &nbsp </div>
+<h2 id="cotacao_inner"><%= I18n.t("relatorios.index.table_of_contents.cotacao") %></h2>
+<div class="row-fluid">
+	<center><img src="/img/relatorios/relatorios_cotacao.jpg" alt="Cotação" /></center>
+	<p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.cotacao.item_1") %></p>
+	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("relatorios.index.cotacao.item_2") %></p>
+	<center><img src="/img/relatorios/.jpg" alt="Cotação" /></center>
+	<p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.cotacao.item_3") %></p>
+	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("relatorios.index.cotacao.item_4") %></p>
+</div>
+<!-- Faturamento  -->
+<div id ="faturamento" > &nbsp </div>
+<h2 id="faturamento_inner"><%= I18n.t("relatorios.index.table_of_contents.faturamento") %></h2>
+<div class="row-fluid">
+	<center><img src="/img/relatorios/relatorios_faturamento.jpg" alt="Faturamento" /></center>
+	<p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.faturamento.item_1") %></p>
+	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("relatorios.index.faturamento.item_2") %></p>
+	<center><img src="/img/relatorios/.jpg" alt="Faturamento" /></center>
+	<p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.faturamento.item_3") %></p>
+	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("relatorios.index.faturamento.item_4") %></p>
+</div>
+
+
+
+
+<p class="note" style="text-indent: 3em; text-align: justify;"><%= I18n.t("relatorios.index.table_of_contents.nota") %></p>
 <!--Botão proximo -->
 <ul class="pager">
   <li class="previous"><%= link_to("&larr; " + I18n.t("orcamentos.index.title"), "orcamentos") %></li>
