@@ -54,21 +54,23 @@
 <h2 id="menu_principal_orcamentos_inner"><%= I18n.t("menu_principal.index.table_of_contents.menu_principal_orcamentos") %></h2>
 <div class="row-fluid">
 	<center><img src="/img/menu_principal/menu_principal_orcamentos.jpg" alt="Menu Principal Orcamentos" /></center>
-	<p align="right" style="font-weight:bold;"><%= I18n.t("menu_principal.index.menu_principal_orcamentos.item_9") %></p>
+	<p align="right" style="font-weight:bold;"><%= I18n.t("menu_principal.index.menu_principal_orcamentos.item_11") %></p>
 	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("menu_principal.index.menu_principal_orcamentos.item_1") %></p>
+
 	<div id="navegador">
- 		<center><ul>
-	   		<li><%= link_to(I18n.t("menu_principal.index.menu_principal_orcamentos.item_2"), "orcamentos#localizar") %></li>
-			<li><%= link_to(I18n.t("menu_principal.index.menu_principal_orcamentos.item_3"), "orcamentos#faturados") %></li>
-			<li><%= link_to(I18n.t("menu_principal.index.menu_principal_orcamentos.item_4"), "orcamentos#concluidos") %></li>  
-			<li><%= link_to(I18n.t("menu_principal.index.menu_principal_orcamentos.item_5"), "orcamentos#divergencias") %></li>
-			<li><%= link_to(I18n.t("menu_principal.index.menu_principal_orcamentos.item_6"), "orcamentos#abertos") %></li>  
-			<br/><br/>
-			<li><%= link_to(I18n.t("menu_principal.index.menu_principal_orcamentos.item_7"), "orcamentos#auditor") %></li>
-			<li><%= link_to(I18n.t("menu_principal.index.menu_principal_orcamentos.item_8"), "orcamentos#local_atendimento") %></li>  
-			<li><%= link_to(I18n.t("menu_principal.index.menu_principal_orcamentos.item_9"), "orcamentos#pendentes_fornecedor") %></li> 
-      	</ul></center>
-	</div>
+ 	<center><ul>
+		<li><%= link_to(I18n.t("menu_principal.index.menu_principal_orcamentos.item_2"), "orcamentos#localizar") %></li>
+		<li><%= link_to(I18n.t("menu_principal.index.menu_principal_orcamentos.item_3"), "orcamentos#faturados") %></li>
+		<li><%= link_to(I18n.t("menu_principal.index.menu_principal_orcamentos.item_4") , "orcamentos#notas_fiscais") %></li>
+		<li><%= link_to(I18n.t("menu_principal.index.menu_principal_orcamentos.item_5"), "orcamentos#concluidos") %></li>
+		<li><%= link_to(I18n.t("menu_principal.index.menu_principal_orcamentos.item_6"), "orcamentos#divergencias") %></li>
+		<br/><br/>
+		<li><%= link_to(I18n.t("menu_principal.index.menu_principal_orcamentos.item_7"), "orcamentos#abertos") %></li>
+		<li><%= link_to(I18n.t("menu_principal.index.menu_principal_orcamentos.item_8"), "orcamentos#auditor") %></li>
+		<li><%= link_to(I18n.t("menu_principal.index.menu_principal_orcamentos.item_9") , "orcamentos#local_atendimento") %></li>
+		<li><%= link_to(I18n.t("menu_principal.index.menu_principal_orcamentos.item_10"), "orcamentos#pendentes_fornecedor") %></li>
+	</ul></center>
+</div>
 </div>
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 <!--Menu Principal > Relatórios -->
@@ -80,10 +82,10 @@
 	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("menu_principal.index.menu_principal_relatorios.item_1") %></p>
 	<div id="navegador">
  		<center><ul>
-			<li><%= link_to(I18n.t("menu_principal.index.menu_principal_relatorios.item_2"), "relatorios#produtos_vencidos") %></li> 
+			<li><%= link_to(I18n.t("menu_principal.index.menu_principal_relatorios.item_2"), "relatorios#economia") %></li> 
 			<li><%= link_to(I18n.t("menu_principal.index.menu_principal_relatorios.item_3"), "relatorios#produtos_vencidos") %></li>   	 
-			<li><%= link_to(I18n.t("menu_principal.index.menu_principal_relatorios.item_4"), "relatorios#produtos_vencidos") %></li>   	 
-			<li><%= link_to(I18n.t("menu_principal.index.menu_principal_relatorios.item_5"), "relatorios#produtos_vencidos") %></li>   	 		
+			<li><%= link_to(I18n.t("menu_principal.index.menu_principal_relatorios.item_4"), "relatorios#cotacao") %></li>   	 
+			<li><%= link_to(I18n.t("menu_principal.index.menu_principal_relatorios.item_5"), "relatorios#faturamento") %></li>   	 		
  		</ul></center>
 	</div>
 </div>
