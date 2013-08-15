@@ -15,11 +15,11 @@
     get_in_touch: "Entre em contato"
   portalopme:
     index:
-      title: "Visão geral do serviço Portal de Compras"
+      title: "Visão geral do serviço Portal de Compras - Perfil de Fornecedor"
       table_of_contents:
         index: "Índice"
         how_it_works: "O que é?"
-        features_yield: "Funcionalidades e Finalidades"
+        features_yield: "Funcionalidades e Finalidades."
         who_uses: "Quem Pode Utilizar?"
       how_it_works:
         paragraph_1: "O Portal de Compras é uma solução para área de saúde no modelo <a href='http://pt.wikipedia.org/wiki/Software_como_serviço' target='blank' class='external'>SaaS</a>. É uma ferramenta que possibilita todo o acompanhamento e gestão das negociações, auditoria técnica e médica, controle de utilização do material cotado/provisionado na cirurgia, sua posterior aprovação para faturamento e possíveis divergências de materiais OPME, em lotes e em regime de leilão reverso, permitindo um maior poder de negociação, que geralmente são de alto custo."
@@ -57,9 +57,9 @@
         dashboard: "Dashboard"
         mural: "Mural"
       welcome:
-        item_1: "Olá, bem vindo ao Portal de Compras da CloudMed! Iniciaremos agora, um passeio pelo sistema e todas as suas telas, entendendo todos seus processos e suas funcionalidades. Fique a vontade e qualquer dúvida entre em contato conosco!"
+        item_1: "Olá, bem vindo ao Portal de Compras da CloudMed! Iniciaremos agora, um passeio pelo sistema e todas as suas telas, entendendo todos seus processos e por fim suas funcionalidades. Fique a vontade e qualquer dúvida entre em contato conosco!"
       dashboard:
-        item_1: "Abaixo temos nosso Dashboard, ou se preferir nosso 'Painel de Controle'! Essa é a primeira visualização que você terá toda vez que entrar no Portal de Compras. Aqui fica reunido de forma simples e objetiva todas as informações relevantes do sistema de acordo com a movimentação e com o perfil do usuário que está logado. Perceba que na parte superior direita da tela existe um campo de busca: nele é possível buscar qualquer informação do sistema digitando somente uma palavra ou frase. Dependendo do filtro que você digitar, o sistema te levará diretamente à esta informação ou mostrará uma lista de registros encontrados. Abuse desta funcionalidade! Nós a desenvolvemos ela para agilizar a busca de informações de nossos usuários!"
+        item_1: "Abaixo temos nosso Dashboard, ou se preferir nosso 'Painel de Controle'! Essa é a primeira visualização que você terá toda vez que entrar no Portal de Compras. Aqui fica reunido de forma simples e objetiva todas as informações mais relevantes do sistema de acordo com a sua movimentação e com o perfil de seu usuário. Perceba que na parte superior direita da tela existe um campo de busca: nele é possível buscar qualquer informação digitando somente uma palavra ou frase. Dependendo do filtro que você digitar, o sistema te levará diretamente à esta informação ou mostrará uma lista de registros encontrados. Abuse desta funcionalidade! Nós a desenvolvemos para agilizar a busca de informações de nossos usuários!"
         item_2: "Dashboard"
         item_3: "<a href='orcamentos#index' target='blank'>Orçamentos</a>"
         item_4: "<a href='orcamentos#notas_fiscais' target='blank'>Aguardando Notas Fiscais</a>"
@@ -67,7 +67,7 @@
         item_6: "<a href='orcamentos#pendentes' target='blank'>Pendentes Fornecedor</a>"
         item_7: "Veja abaixo onde cada parte do dashboard te leva de maneira fácil e prática:"
       mural:
-        item_1: "Abaixo apresentamos nosso mural. Nele você visualiza as publicações feitas por nós da Cloudmed, informações úteis aos usuários, dicas e alertas sempre aparecerão por aqui para que você fique por dentro das novidades que ocorrem. Dessa forma, ser informado fica rápido e prático!"
+        item_1: "Abaixo apresentamos nosso mural. Nele você visualiza as publicações feitas pela Cloudmed, como informações úteis aos usuários, dicas e alertas. Dessa forma ser informado fica rápido e prático!"
         item_2: "Mural"
   menu_principal:
    index:
