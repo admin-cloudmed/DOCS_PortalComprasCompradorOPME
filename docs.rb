@@ -21,15 +21,15 @@ before do
 end
 
 # HOME
-get "/" do redirect "/#{current_locale}/fluxograma" end
+get "/" do redirect "/#{current_locale}/portalopme" end
 
 navigation = [
-# Fluxograma
-  { "url" => "fluxograma",                           "view_path" => "fluxograma/index"},
 # Visão Geral do Portal OPME
   { "url" => "portalopme",                           "view_path" => "portalopme/index"},
 # Entendendo o Sistema
   { "url" => "understanding_the_system",             "view_path" => "understanding_the_system/index"},
+# Fluxograma
+  { "url" => "fluxograma",                           "view_path" => "fluxograma/index"},
 # Menu Principal
   { "url" => "menu_principal",                       "view_path" => "menu_principal/index"},
 # Solicitar OPME

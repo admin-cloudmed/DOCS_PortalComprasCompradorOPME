@@ -42,7 +42,7 @@
         feature_15: "Gestão do conhecimento e informações para planejamento e tomada de decisões;"
         feature_16: "Ampla manutenção dos itens cadastrados, visando alinhar o melhor preço e qualidade, bem como o controle de validade do código ANVISA dos materiais."
       who_uses:
-        paragraph_1: "Nossa solução está no mercado há cinco anos, sendo atualmente utilizada pela Unimed Intrafederativa Nordeste Paulista e suas singulares, trabalhando na mais alta transparência, segurança e facilidade. Potenciais forças que podem utilizar nossa aplicação, são empresas como:"
+        paragraph_1: "Nossa solução está no mercado há cinco anos, trabalhando na mais alta transparência, segurança e facilidade. Potenciais forças que podem utilizar nossa aplicação, são empresas como:"
         item_1: "Operadores de Saúde;"
         item_2: "Hospitais;"
         item_3: "Fornecedores de materiais OPME;"
@@ -54,12 +54,13 @@
       table_of_contents:
         index: "Índice" 
         welcome: "Bem Vindo!" 
+        fluxograma: "Fluxograma do Sistema"
         dashboard: "Dashboard"
         mural: "Mural"
       welcome:
-        item_1: "Olá, bem vindo ao Portal de Compras da CloudMed! Iniciaremos agora, um passeio pelo sistema e todas as suas telas, entendendo todos seus processos e por fim suas funcionalidades. Fique a vontade e qualquer dúvida entre em contato conosco!"
+        item_1: "Olá, bem vindo ao Portal de Compras da CloudMed! Iniciaremos agora, um passeio pelo sistema e suas funções, entendendo seus principais processos e funcionalidades. Fique a vontade e, qualquer dúvida, entre em contato conosco!"
       dashboard:
-        item_1: "Abaixo temos nosso Dashboard, ou se preferir nosso 'Painel de Controle'! Essa é a primeira visualização que você terá toda vez que entrar no Portal de Compras. Aqui fica reunido de forma simples e objetiva todas as informações mais relevantes do sistema de acordo com a sua movimentação e com o perfil de seu usuário. Perceba que na parte superior direita da tela existe um campo de busca: nele é possível buscar qualquer informação digitando somente uma palavra ou frase. Dependendo do filtro que você digitar, o sistema te levará diretamente à esta informação ou mostrará uma lista de registros encontrados. Abuse desta funcionalidade! Nós a desenvolvemos para agilizar a busca de informações de nossos usuários!"
+        item_1: "Abaixo temos o 'Dashboard' ou se preferir nosso 'Painel de Controle'! Esta é a primeira visualização que você terá ao entrar no Portal de Compras. Reunimos aqui de forma simples e objetiva as informações mais relevantes do sistema, de acordo com a movimentação e perfil de seu usuário. Perceba que na parte superior direita da tela existe um campo de busca: nele é possível buscar qualquer informação digitando somente uma palavra ou frase. Dependendo do filtro digitado, o sistema mostrará diretamente a informação ou uma lista de registros encontrados. Abuse desta funcionalidade! Nós a desenvolvemos para agilizar a busca de informações de nossos usuários!"
         item_2: "Dashboard"
         item_3: "<a href='orcamentos#index' target='blank'>Orçamentos</a>"
         item_4: "<a href='orcamentos#notas_fiscais' target='blank'>Aguardando Notas Fiscais</a>"
@@ -81,18 +82,18 @@
         menu_principal_relatorios: "Relatórios"
         menu_principal_configuracoes: "Configurações"
       menu_principal:
-        item_1: "Abaixo você vê menu principal do sistema, ele sempre estará presente e visível no topo da tela do sistema, disponibilizando as ações para o usuário de acordo com suas permissões previamente definidas."
+        item_1: "Abaixo você vê o menu principal do sistema. Ele sempre estará presente e visível no topo da tela, disponibilizando as ações para o usuário, de acordo com suas permissões previamente definidas."
         item_2: "Menu Principal"
       menu_principal_dashboard:
-        item_1: "Aqui o sistema te leva para o dashboard, tela que possibilita rápido acesso às informações mais importantes do sistema. Veja abaixo:"
+        item_1: "Aqui, você será redirecionado para o dashboard, que reúne as informações de mais relevância sobre as operações realizadas no sistemas, sem também uma maneira de acessar de forma rápida qualquer informação lá descrita:"
         item_2: "Menu Principal > Dashboard"
         item_3: "Dashboard"
       menu_principal_solicitar_opme:
-        item_1: "Em solicitar OPME você dá início ao processo de criação de um orçamento no sistema. Veja como logo abaixo."
+        item_1: "Em 'solicitar OPME' você dá inicio ao orçamento no sistema, conforme podemos ver abaixo."
         item_2: "Menu Principal > Solicitar OPME"
         item_3: "Solicitar OPME"
       menu_principal_orcamentos:
-        item_1: "Seguindo o menu Orçamentos, o sistema te mostrará quantos orçamentos existem para cada status do sistema."
+        item_1: "Seguindo pelo menu 'Orçamentos', o sistema oferecerá opções para acompanhamento dos orçamentos e respectivos status:"
         item_2: "Localizar Orçamento"
         item_3: "Faturados/10 dias"
         item_4: "Aguardando Notas Fiscais"
@@ -104,14 +105,14 @@
         item_10: "Pendente Fornecedor"
         item_11: "Menu Principal > Orçamentos"
       menu_principal_relatorios:
-        item_1: "Em relatórios, você pode visualizar todos os tipos de relatórios disponíveis no sistema. Acompanhe abaixo:"
+        item_1: "Em 'Relatórios', você visualiza e controla todos os orçamentos incluídos no sistema, seus status, e quaisquer informações necessárias:"
         item_2: "Economia"
         item_3: "Produtos Vencidos"
         item_4: "Cotação"
         item_5: "Faturamento"
         item_6: "Menu Principal > Relatórios"
       menu_principal_configuracoes:
-        item_1: "Além das configurações básicas para o sistema, o menu Configurações te leva para os cadastros dos produtos, onde sempre será necessário atualizar as informações para que seus clientes fiquem informados. Seguem as opções:"
+        item_1: "Além das configurações básicas do sistema, o menu 'Configurações' disponibiliza o cadastro dos produtos, onde será necessário onde é permitido atualizar informações dos materiais, seus fornecedores, cadastros, códigos, etc, conforme as seguintes opções:"
         item_2: "Meus Dados"
         item_3: "Lista de Produtos"
         item_4: "Convidar Fornecedor"
@@ -129,15 +130,15 @@
         solicitar_opme: "Solicitar OPME"
       solicitar_opme:
         item_1: "Menu > Solicitar OPME"
-        item_2: "Esse é o primeiro passo para criarmos um novo orçamento de cotação no Portal de Compras CloudMed! Primeiramente as informações necessárias para criar um orçamento são: Empresa Prestadora, Empresa Origem, Data da Solicitação, Data Prevista, Nome e Cartão do Beneficiário, Prestador, Telefone do Consultório, Local de Atendimento, Tipo de Atendimento, Procedimento Médico e CID.		Veja abaixo como ficam dispostas as informações para a criação de um novo orçamento:"
+        item_2: "Este é o primeiro passo para iniciar um novo orçamento no Portal de Compras da CloudMed! Como forma de esclarecimento, as informações necessárias são: Empresa Prestadora , Empresa Origem, Data da Solicitação, Data Prevista, o Nome do Paciente e seu Código / Cartão do Paciente, o Prestador, Telefone do Consultório, o Local de Atendimento, o Tipo de Atendimento, o Procedimento Médico e o CID. Veja abaixo como é distribuída a solicitação destes dados, para criação de um novo orçamento:"
         item_3: "Tela Solicitar OPME"
-        item_4: "Após digitar essas informações e clicar em continuar, veja abaixo que o sistema te leva para a próxima página, onde vamos escolher todos os produtos que farão parte deste orçamento. Esta tela te proporciona vários tipos de filtros para que você encontre facilmente o produto que deseja. Veja:"
+        item_4: "Após incluir as informações necessárias e clicar em 'Continuar', observe que o sistema te levará para a próxima fase, onde é possível escolher os produtos que serão utilizados na cirurgia e que participarão da cotação. Disponibilizamos diversos filtros para que a busca pelo material seja fácil e rápida. Veja:"
         item_5: "Seleção de produtos para o orçamento"
-        item_6: "Colocando filtros ou não, clicando no botão 'Pesquisar' da tela acima, o sistema fará uma busca pelos produtos cadastrados e te retornará uma lista para que sejam selecionados os itens desejados. Veja na tela abaixo que a página exibe, para cada produto, informações como: fornecedor, marca, código anvisa e etc. Para selecionar o produto perceba que ao lado de cada item existe um carrinho de compras. Clicando sob o ícone o mesmo passa da cor azul para cor verde, indicando que este produto está selecionado para o orçamento. Para retirá-lo do orçamento, basta clicar no carrinho novamente, assim o mesmo voltará para seu estado normal (cor azul)."
+        item_6: "Preenchendo filtros, ou apenas clicando em 'Pesquisar', o sistema fará uma busca pelos produtos cadastrados no sistema e exibirá os materiais que poderão ser adicionados para cotação no orçamento. Observe na tela abaixo que a página exibe, pra cada produto, informações como: o fornecedor, a marca, código ANVISA e etc. Assim você tem uma visão global do produto, antes de selecioná-lo. Para selecionar, note que ao lado de cada produto existe um botão azul (carrinho de compras). Clicando nele, ele automaticamente ficará verde, indicando que determinado material já foi selecionado ao orçamento. Para excluir um material, basta clicar novamente no mesmo botão, agora verde, para que volte estado anterior, (cor azul), ou seja, fora do orçamento."
         item_7: "Adição de Produtos no Orçamento"
-        item_8: "Após adicionar todos os produtos clique em continuar você será encaminhado para a página exibida logo abaixo. Nela além de confirmar os produtos que realmente vão para o orçamento, deve também definir a quantidade de cada produto, podendo adicionar alguma observação (não obrigatória) para o orçamento."
+        item_8: "Após adicionar os materiais ao orçamento, observe que todos estarão listados na parte inferior (rodapé) da página. Clicando em ‘continuar’ você será encaminhado para a página abaixo, para confirmação dos materiais e definição das quantidades. Nesta seção também é possível adicionar alguma observação (não obrigatória) ao orçamento. Assim, os próximos usuários ficarão cientes da observação incluída no momento da seleção dos materiais."
         item_9: "Confirmação de Produtos no Orçamento"
-        item_10: "Pronto, você acaba de inserir um orçamento para ser cotado pelo Portal de Compras CloudMed! Repare abaixo que o orçamento quando criado sempre assume o status de "Aberto", destacado em vermelho a frente de seu número."
+        item_10: "Clicando em 'Concluir', você acaba de inserir mais um orçamento para ser cotado pelo Portal de Compras da CloudMed! Repare que o orçamento, quando criado, exibirá seu status (Aberto) destacado a frente de seu número (). Estes são alguns filtros que podem ser usados para pesquisa ou busca no sistema."
         item_11: "Orçamento Aberto"
   orcamentos:
    index:
@@ -223,7 +224,7 @@
         item_1: "Menu > Orçamentos > Pendentes Fornecedor"
         item_2: "Em  Orçamentos > Pendentes Fornecedor você visualiza todos os orçamentos em que foram escolhidos os fornecedores, mas que os mesmos ainda não retornaram os valores dos produtos. Veja:"
         item_3: "Pesquisa Orçamentos Pendentes com Fornecedor"
-        item_4: "Selecionando o orçamento, você visualiza todas as informações e produtos que ele contém. Nesse status o orçamento fica "travado" com o fornecedor, pois, o Portal de Compras necessita do retorno do fornecedor para saber qual é sua precificação. Somente com a ação do fornecedor o orçamento será liberado para prosseguir com seu fluxo."
+        item_4: "Selecionando o orçamento, você visualiza todas as informações e produtos que ele contém. Nesse status o orçamento fica 'travado' com o fornecedor, pois, o Portal de Compras necessita do retorno do fornecedor para saber qual é sua precificação. Somente com a ação do fornecedor o orçamento será liberado para prosseguir com seu fluxo."
         item_5: "Orçamento Pendente com Fornecedor"
   relatorios:
    index:
@@ -240,14 +241,14 @@
         item_2: "Seguindo o menu Relatórios, o sistema disponibiliza vários tipos de relatórios para diferentes análises do que acontece no sistema. Neste primeiro, temos o relatório de Economia, veja abaixo:"
         item_3: "Pesquisa Relatório Economia"
         item_4: "Veja acima que o sistema disponibiliza a opção para pesquisar por período. Clicando em 'Gerar Relatório', vemos abaixo o conjunto de resultados que são obtidos:"
-        item_5: "Relatório Sintético - Mostra o valor agregado de economia por orçamento, calculando o valor de todos os produtos que participaram do orçamento."
-        item_6: "Relatório Analítico - Mostra a economia de cada produto dentro do orçamento, comparando os preços com o valor de mercado."
+        item_5: "<strong>Relatório Sintético - </strong>Mostra o valor agregado de economia por orçamento, calculando o valor de todos os produtos que participaram do orçamento."
+        item_6: "<strong>Relatório Analítico - </strong>Mostra a economia de cada produto dentro do orçamento, comparando os preços com o valor de mercado."
         item_7: "Relatório de Economia"
       produtos_vencidos:
         item_1: "Menu > Relatórios > Produtos Vencidos"
         item_2: "Aqui temos o relatório de produtos vencidos, onde você pode controlar a data de validade do código Anvisa de todos os produtos. Veja:"
         item_3: "Relatório de Produtos Vencidos"
-        item_4: "Repare que o sistema mostra uma lista com os produtos fornecidos que estão com o código anvisa vencido. Você tem a opção de alterar a data de validade clicando no "lápis" e salvar as alterações clicando no "V"."
+        item_4: "Repare que o sistema mostra uma lista com os produtos fornecidos que estão com o código anvisa vencido. Você tem a opção de alterar a data de validade clicando no 'lápis' e salvar as alterações clicando no 'V'."
       cotacao:
         item_1: "Menu > Relatórios > Cotação"
         item_2: "Seguindo o menu 'Relatórios > Cotações'  o sistema te encaminha para a tela que é exibida abaixo:"

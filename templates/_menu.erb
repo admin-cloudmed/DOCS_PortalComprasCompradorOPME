@@ -2,12 +2,11 @@
    <!-- Portal OPME --> 
   <div class="accordion-group">
     <div class="accordion-heading">
-      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">Portal De Compras</a>
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne" onclick="location.href = 'portalopme'">Portal de Compras</a>
     </div>
     <div id="collapseOne" class="accordion-body collapse <%=is_group_active?("portalopme") %>">
       <div class="accordion-inner">
         <ul>
-          <li><a href="#index"><%= link_to(I18n.t("portalopme.index.table_of_contents.index"), "portalopme") %></a></li>
           <li><a href="#how_it_works"><%= link_to(I18n.t("portalopme.index.table_of_contents.how_it_works"), "portalopme#how_it_works") %></a></li>
           <li><a href="#features_yield"><%= link_to(I18n.t("portalopme.index.table_of_contents.features_yield"), "portalopme#features_yield") %></a></li>
           <li><a href="#who_uses"><%= link_to(I18n.t("portalopme.index.table_of_contents.who_uses"), "portalopme#who_uses") %></a></li>
@@ -19,13 +18,13 @@
   <!-- Entendendo o Sistema -->
   <div class="accordion-group">
     <div class="accordion-heading">
-      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">Entendendo o Sistema</a>
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo" onclick="location.href = 'understanding_the_system'">Entendendo o Sistema</a>
     </div>
     <div id="collapseTwo" class="accordion-body collapse <%=is_group_active?("understanding_the_system") %>">
       <div class="accordion-inner">
         <ul>
-		    <li><a href="#index"><%= link_to(I18n.t("understanding_the_system.index.table_of_contents.index"), "understanding_the_system") %></a></li>
 			<li><a href="#welcome"><%= link_to(I18n.t("understanding_the_system.index.table_of_contents.welcome"), "understanding_the_system#welcome") %></a></li>
+			<li><a href="#fluxograma"><%= link_to(I18n.t("understanding_the_system.index.table_of_contents.fluxograma"), "understanding_the_system#fluxograma") %></a></li>
 			<li><a href="#dashboard"><%= link_to(I18n.t("understanding_the_system.index.table_of_contents.dashboard"), "understanding_the_system#dashboard") %></a></li>
             <li><a href="#mural"><%= link_to(I18n.t("understanding_the_system.index.table_of_contents.mural"), "understanding_the_system#mural") %></a></li>          
         </ul>
@@ -36,12 +35,11 @@
 <!-- Menu Principal -->
   <div class="accordion-group">
     <div class="accordion-heading">
-      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">Menu Principal</a>
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree" onclick="location.href = 'menu_principal'"> Menu Principal</a>
     </div>
     <div id="collapseThree" class="accordion-body collapse <%=is_group_active?("menu_principal") %>">
       <div class="accordion-inner">
         <ul>
-            <li><a href="#index"><%= link_to(I18n.t("menu_principal.index.table_of_contents.index"), "menu_principal#index") %></a></li>
             <li><a href="#menu_principal"><%= link_to(I18n.t("menu_principal.index.table_of_contents.menu_principal"), "menu_principal#menu_principal") %></a></li>
 			<li><a href="#dashboard"><%= link_to(I18n.t("menu_principal.index.table_of_contents.menu_principal_dashboard"), "menu_principal#dashboard") %></a></li>
 			<li><a href="#solicitar_opme"><%= link_to(I18n.t("menu_principal.index.table_of_contents.menu_principal_solicitar_opme"), "menu_principal#solicitar_opme") %></a></li>
@@ -56,12 +54,11 @@
   <!-- Solicitar OPME -->
   <div class="accordion-group">
     <div class="accordion-heading">
-      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">Solicitar OPME</a>
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour"  onclick="location.href = 'solicitar_opme'"> Solicitar OPME</a>
     </div>
     <div id="collapseFour" class="accordion-body collapse <%=is_group_active?("solicitar_opme") %>">
       <div class="accordion-inner">
         <ul>
-            <li><a href="#index"><%= link_to(I18n.t("solicitar_opme.index.table_of_contents.index"), "solicitar_opme#index") %></a></li>
             <li><a href="#solicitar_opme"><%= link_to(I18n.t("solicitar_opme.index.table_of_contents.solicitar_opme"), "solicitar_opme#solicitar_opme") %></a></li>
         </ul>
       </div>
@@ -72,12 +69,11 @@
   <!-- Orçamentos -->
   <div class="accordion-group">
     <div class="accordion-heading">
-      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFive">Orçamentos</a>
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFive"  onclick="location.href = 'orcamentos'"> Orçamentos</a>
     </div>
     <div id="collapseFive" class="accordion-body collapse <%=is_group_active?("orcamentos") %>">
       <div class="accordion-inner">
         <ul>
-            <li><a href="#menu_principal"><%= link_to(I18n.t("orcamentos.index.table_of_contents.index"), "orcamentos#index") %></a></li>
             <li><a href="#menu_principal"><%= link_to(I18n.t("orcamentos.index.table_of_contents.localizar"), "orcamentos#localizar") %></a></li>
 			<li><a href="#menu_principal"><%= link_to(I18n.t("orcamentos.index.table_of_contents.faturados"), "orcamentos#faturados") %></a></li>
 			<li><a href="#menu_principal"><%= link_to(I18n.t("orcamentos.index.table_of_contents.notas_fiscais"), "orcamentos#notas_fiscais") %></a></li>
@@ -95,12 +91,11 @@
   <!-- Relatórios -->
   <div class="accordion-group">
     <div class="accordion-heading">
-      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseSix">Relatórios</a>
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseSix" onclick="location.href = 'relatorios'"> Relatórios</a>
     </div>
     <div id="collapseSix" class="accordion-body collapse <%=is_group_active?("relatorios") %>">
       <div class="accordion-inner">
         <ul>
-            <li><a href="#menu_principal"><%= link_to(I18n.t("relatorios.index.table_of_contents.index"), "relatorios#index") %></a></li>
             <li><a href="#menu_principal"><%= link_to(I18n.t("relatorios.index.table_of_contents.economia"), "relatorios#economia") %></a></li>
             <li><a href="#menu_principal"><%= link_to(I18n.t("relatorios.index.table_of_contents.produtos_vencidos"), "relatorios#produtos_vencidos") %></a></li>
             <li><a href="#menu_principal"><%= link_to(I18n.t("relatorios.index.table_of_contents.cotacao"), "relatorios#cotacao") %></a></li>
@@ -113,12 +108,11 @@
   <!-- Configurações -->
   <div class="accordion-group">
     <div class="accordion-heading">
-      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseSeven">Configurações</a>
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseSeven"  onclick="location.href = 'configuracoes'"> Configurações</a>
     </div>
     <div id="collapseSeven" class="accordion-body collapse <%=is_group_active?("configuracoes") %>">
       <div class="accordion-inner">
         <ul>
-            <li><a href="#menu_principal"><%= link_to(I18n.t("configuracoes.index.table_of_contents.index"), "configuracoes#index") %></a></li>
             <li><a href="#menu_principal"><%= link_to(I18n.t("configuracoes.index.table_of_contents.meus_dados"), "configuracoes#meus_dados") %></a></li>
 			<li><a href="#menu_principal"><%= link_to(I18n.t("configuracoes.index.table_of_contents.lista_produtos"), "configuracoes#lista_produtos") %></a></li>		
 			<li><a href="#menu_principal"><%= link_to(I18n.t("configuracoes.index.table_of_contents.convidar_fornecedor"), "configuracoes#convidar_fornecedor") %></a></li>
