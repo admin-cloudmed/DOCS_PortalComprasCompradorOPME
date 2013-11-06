@@ -439,9 +439,9 @@ h2.command-header{
 	height:51px;
 	border:none;
 	text-indent:-999px;
-	background:url(http://3.bp.blogspot.com/-cTeVAbZGCME/T3mZzjQo6uI/AAAAAAAABu0/W8-7n3Q9jQ0/s1600/gotopdbstyle4.png) no-repeat left top;}
+	background:url(http://lab.mattvarone.com/projects/jquery/totop/img/ui.totop.png) no-repeat left top;}
 #toTopHover {
-	background:url(http://3.bp.blogspot.com/-cTeVAbZGCME/T3mZzjQo6uI/AAAAAAAABu0/W8-7n3Q9jQ0/s1600/gotopdbstyle4.png) no-repeat left -51px;
+	background:url(http://lab.mattvarone.com/projects/jquery/totop/img/ui.totop.png) no-repeat left -51px;
 	width:51px;
 	height:51px;
 	display:block;

@@ -1,39 +1,56 @@
 <center><h1><%= I18n.t("orcamentos.index.title") %></h1></center>
 <p class="more-info"><%= I18n.t("general.updated_at", :date => "06/03/2013") %></p>
 <h3><%= I18n.t("general.index") %></h3>
+
 <!--Indice -->
 <div id="navegador">
- 	<center><ul>
-	<li><a href="#localizar_inner"><%= I18n.t("orcamentos.index.table_of_contents.localizar") %></a></li>
-	<li><a href="#faturados_inner"><%= I18n.t("orcamentos.index.table_of_contents.faturados") %></a></li>
-	<li><a href="#notas_fiscais_inner"><%= I18n.t("orcamentos.index.table_of_contents.notas_fiscais") %></a></li>
-	<li><a href="#concluidos_inner"><%= I18n.t("orcamentos.index.table_of_contents.concluidos") %></a></li>
-	<li><a href="#divergencias_inner"><%= I18n.t("orcamentos.index.table_of_contents.divergencias") %></a></li>
-	<br/><br/>
-	<li><a href="#abertos_inner"><%= I18n.t("orcamentos.index.table_of_contents.abertos") %></a></li>
-	<li><a href="#auditor_inner"><%= I18n.t("orcamentos.index.table_of_contents.auditor") %></a></li>
-	<li><a href="#local_atendimento_inner"><%= I18n.t("orcamentos.index.table_of_contents.local_atendimento") %></a></li>
-	<li><a href="#pendentes_fornecedor_inner"><%= I18n.t("orcamentos.index.table_of_contents.pendentes_fornecedor") %></a></li>
-	</ul></center>
+ 	<center>
+		<ul>
+			<li><a href="#localizar_inner"><%= I18n.t("orcamentos.index.table_of_contents.localizar") %></a></li>
+			<li><a href="#faturados_inner"><%= I18n.t("orcamentos.index.table_of_contents.faturados") %></a></li>
+			<li><a href="#notas_fiscais_inner"><%= I18n.t("orcamentos.index.table_of_contents.notas_fiscais") %></a></li>
+			<li><a href="#concluidos_inner"><%= I18n.t("orcamentos.index.table_of_contents.concluidos") %></a></li>
+			<li><a href="#divergencias_inner"><%= I18n.t("orcamentos.index.table_of_contents.divergencias") %></a></li>
+			<br/><br/>	
+			<li><a href="#divergencias_fornecedor_inner"><%= I18n.t("orcamentos.index.table_of_contents.divergencias_fornecedor") %></a></li>
+			<li><a href="#abertos_inner"><%= I18n.t("orcamentos.index.table_of_contents.abertos") %></a></li>
+			<li><a href="#auditor_inner"><%= I18n.t("orcamentos.index.table_of_contents.auditor") %></a></li>
+			<li><a href="#local_atendimento_inner"><%= I18n.t("orcamentos.index.table_of_contents.local_atendimento") %></a></li>
+			<br/><br/>
+			<li><a href="#pendentes_fornecedor_inner"><%= I18n.t("orcamentos.index.table_of_contents.pendentes_fornecedor") %></a></li>
+			<li><a href="#nf_recebida_inner"><%= I18n.t("orcamentos.index.table_of_contents.nf_recebida") %></a></li>
+			<li><a href="#rep_titulo_inner"><%= I18n.t("orcamentos.index.table_of_contents.rep_titulo") %></a></li>
+			<br/><br/>
+			<li><a href="#conf_faturamento_inner"><%= I18n.t("orcamentos.index.table_of_contents.conf_faturamento") %></a></li>
+		</ul>
+	</center>
 </div>
+
+
 <!-- Localizar Orçamento -->
 <div id ="localizar" > &nbsp </div>
 <h2 id="localizar_inner"><%= I18n.t("orcamentos.index.table_of_contents.localizar") %></h2>
 <div class="row-fluid">
-	<center><img src="/img/orcamentos/menu_localizar_orcamentos.jpg" alt="Orçamentos Faturados" /></center>
+	<center>
+		<img src="/img/orcamentos/menu_localizar_orcamentos.jpg"  />
+	</center>
 	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("orcamentos.index.localizar.item_1") %></p>
 	<br/><br/>
 	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("orcamentos.index.localizar.item_2") %></p>
-	<center><img src="/img/orcamentos/localizar_orcamento.jpg" alt="Localizar Orçamentos" /></center>
+	<center>
+		<img src="/img/orcamentos/localizar_orcamento.jpg" />
+	</center>
 	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("orcamentos.index.localizar.item_3") %></p>
 	<br/><br/>
 	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("orcamentos.index.localizar.item_4") %></p>
-	<center><img src="/img/orcamentos/orcamentos_localizados.jpg" alt="Localizar Orçamentos" /></center>
+	<center>
+		<img src="/img/orcamentos/orcamentos_localizados.jpg"  />
+	</center>
 	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("orcamentos.index.localizar.item_5") %></p>
 	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("orcamentos.index.localizar.item_6") %></p>
 	<strong>
-	<div style="width:50%;float:left">
-		<ul style="list-style-type:circle;margin-left:170px">
+		<div style="width:50%;float:left">
+			<ul style="list-style-type:circle;margin-left:170px">
 			<li><%= I18n.t("orcamentos.index.localizar.item_7") %></li>
 			<li><%= I18n.t("orcamentos.index.localizar.item_8") %></li>
 			<li><%= I18n.t("orcamentos.index.localizar.item_9") %></li>
@@ -41,130 +58,215 @@
 			<li><%= I18n.t("orcamentos.index.localizar.item_11") %></li>
 			<li><%= I18n.t("orcamentos.index.localizar.item_12") %></li>
 		</ul>
-	</div>
-	<div style="width:50%;float:left">
-		<ul style="list-style-type:circle;margin-left:100px">
-			<li><%= I18n.t("orcamentos.index.localizar.item_13") %></li>
-			<li><%= I18n.t("orcamentos.index.localizar.item_14") %></li>
-			<li><%= I18n.t("orcamentos.index.localizar.item_15") %></li>
-			<li><%= I18n.t("orcamentos.index.localizar.item_16") %></li>
-			<li><%= I18n.t("orcamentos.index.localizar.item_17") %></li>
-			<li><%= I18n.t("orcamentos.index.localizar.item_18") %></li>
-		</ul>
-		</strong>
-	</div>
+		</div>
+		<div style="width:50%;float:left">
+			<ul style="list-style-type:circle;margin-left:100px">
+				<li><%= I18n.t("orcamentos.index.localizar.item_13") %></li>
+				<li><%= I18n.t("orcamentos.index.localizar.item_14") %></li>
+				<li><%= I18n.t("orcamentos.index.localizar.item_15") %></li>
+				<li><%= I18n.t("orcamentos.index.localizar.item_16") %></li>
+				<li><%= I18n.t("orcamentos.index.localizar.item_17") %></li>
+				<li><%= I18n.t("orcamentos.index.localizar.item_18") %></li>
+			</ul>
+		</div>
+	</strong>
 </div>
 <br/><br/><br/><br/>
+
+
 <!-- Faturados/10 dias -->
 <div id ="faturados" > &nbsp </div>
 <h2 id="faturados_inner"><%= I18n.t("orcamentos.index.table_of_contents.faturados") %></h2>
 <div class="row-fluid">
-	<center><img src="/img/orcamentos/orcamentos_faturados.jpg" alt="Orçamentos Faturados" /></center>
+	<center>
+		<img src="/img/orcamentos/orcamentos_faturados.jpg"  />
+	</center>
 	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("orcamentos.index.faturados.item_1") %></p>
 	<br/><br/>
 	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("orcamentos.index.faturados.item_2") %></p>
-	<center><img src="/img/orcamentos/faturados.jpg" alt="Orçamentos Faturados" /></center>
+	<center>
+		<img src="/img/orcamentos/faturados.jpg"  />
+	</center>
 	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("orcamentos.index.faturados.item_3") %></p>
 	<br/><br/>
 	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("orcamentos.index.faturados.item_4") %></p>
-	<center><img src="/img/orcamentos/faturados2.jpg" alt="Orçamentos Faturados" /></center>
+	<center>
+		<img src="/img/orcamentos/faturados2.jpg"  />
+	</center>
 	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("orcamentos.index.faturados.item_5") %></p>
 </div>
 <br/><br/><br/><br/>
+
+
 <!-- Aguardando Notas Fiscais -->
 <div id ="notas_fiscais" > &nbsp </div>
 <h2 id="notas_fiscais_inner"><%= I18n.t("orcamentos.index.table_of_contents.notas_fiscais") %></h2>
 <div class="row-fluid">
-	<center><img src="/img/orcamentos/orcamentos_notas_fiscais.jpg" alt="Aguardando Notas Fiscais" /></center>
+	<center>
+		<img src="/img/orcamentos/orcamentos_notas_fiscais.jpg" />
+	</center>
 	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("orcamentos.index.notas_fiscais.item_1") %></p>
 	<br/><br/>
 	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("orcamentos.index.notas_fiscais.item_2") %></p>
-	<center><img src="/img/orcamentos/notas_fiscais.jpg" alt="Aguardando Notas Fiscais" /></center>
+	<center>
+		<img src="/img/orcamentos/notas_fiscais.jpg" />
+	</center>
 	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("orcamentos.index.notas_fiscais.item_3") %></p>
 	<br/><br/>
 	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("orcamentos.index.notas_fiscais.item_4") %></p>
-	<center><img src="/img/orcamentos/notas_fiscais2.jpg" alt="Aguardando Notas Fiscais" /></center>
+	<center>
+		<img src="/img/orcamentos/notas_fiscais2.jpg" />
+	</center>
 	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("orcamentos.index.notas_fiscais.item_5") %></p>
 	<br/><br/>
 	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("orcamentos.index.notas_fiscais.item_6") %></p>
-	<center><img src="/img/orcamentos/notas_fiscais3.jpg" alt="Aguardando Notas Fiscais" /></center>
+	<center>
+		<img src="/img/orcamentos/notas_fiscais3.jpg"  />
+	</center>
 	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("orcamentos.index.notas_fiscais.item_7") %></p>
 </div>
 <br/><br/><br/><br/>
+
+
 <!-- Concluidos -->
 <div id ="concluidos" > &nbsp </div>
 <h2 id="concluidos_inner"><%= I18n.t("orcamentos.index.table_of_contents.concluidos") %></h2>
 <div class="row-fluid">
-	<center><img src="/img/orcamentos/menu_orcamentos_concluidos.jpg" alt="Orçamentos Concluidos" /></center>
+	<center>
+		<img src="/img/orcamentos/menu_orcamentos_concluidos.jpg" />
+	</center>
 	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("orcamentos.index.concluidos.item_1") %></p>
 	<br/><br/>
 	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("orcamentos.index.concluidos.item_2") %></p>
-	<center><img src="/img/orcamentos/orcamentos_concluidos.jpg" alt="Orçamentos Concluidos" /></center>
+	<center>
+		<img src="/img/orcamentos/orcamentos_concluidos.jpg" />
+	</center>
 	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("orcamentos.index.concluidos.item_3") %></p>
 	<br/><br/>
 	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("orcamentos.index.concluidos.item_4") %></p>
-	<center><img src="/img/orcamentos/orcamento_concluido.jpg" alt="Orçamentos Concluidos" /></center>
+	<center>
+		<img src="/img/orcamentos/orcamento_concluido.jpg" />
+	</center>
 	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("orcamentos.index.concluidos.item_5") %></p>
 </div>
 <br/><br/><br/><br/>
+
+
 <!-- Divergencias -->
 <div id ="divergencias" > &nbsp </div>
 <h2 id="divergencias_inner"><%= I18n.t("orcamentos.index.table_of_contents.divergencias") %></h2>
 <div class="row-fluid">
-	<center><img src="/img/orcamentos/menu_orcamentos_divergencias.jpg" alt="Orçamentos Divergencias" /></center>
+	<center>
+		<img src="/img/orcamentos/menu_orcamentos_divergencias.jpg" />
+	</center>
 	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("orcamentos.index.divergencias.item_1") %></p>
 	<br/><br/>
 	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("orcamentos.index.divergencias.item_2") %></p>
-	<center><img src="/img/orcamentos/orcamentos_divergencia.jpg" alt="Orçamentos Divergencias" /></center>
+	<center>
+		<img src="/img/orcamentos/orcamentos_divergencia.jpg" />
+	</center>
 	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("orcamentos.index.divergencias.item_3") %></p>
 	<br/><br/>
 	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("orcamentos.index.divergencias.item_4") %></p>
-	<center><img src="/img/orcamentos/orcamento_divergencia.jpg" alt="Orçamentos Divergencias" /></center>
+	<center>
+		<img src="/img/orcamentos/orcamento_divergencia.jpg" />
+	</center>
 	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("orcamentos.index.divergencias.item_5") %></p>
 </div>
 <br/><br/><br/><br/>
+
+
+<!-- Divergencias Pendente Fornecedor-->
+<div id ="divergencias_fornecedor" > &nbsp </div>
+<h2 id="divergencias_fornecedor_inner"><%= I18n.t("orcamentos.index.table_of_contents.divergencias_fornecedor") %></h2>
+<div class="row-fluid">
+	<center>
+		<img src="/img/orcamentos/.jpg"  />
+	</center>
+	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("orcamentos.index.divergencias_fornecedor.item_1") %></p>
+	<br/><br/>
+	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("orcamentos.index.divergencias_fornecedor.item_2") %></p>
+	<center>
+		<img src="/img/orcamentos/.jpg" />
+	</center>
+	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("orcamentos.index.divergencias_fornecedor.item_3") %></p>
+	<br/><br/>
+	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("orcamentos.index.divergencias_fornecedor.item_4") %></p>
+</div>
+<br/><br/><br/><br/>
+
+
 <!-- Abertos -->
 <div id ="abertos" > &nbsp </div>
 <h2 id="abertos_inner"><%= I18n.t("orcamentos.index.table_of_contents.abertos") %></h2>
 <div class="row-fluid">
-	<center><img src="/img/orcamentos/menu_orcamentos_abertos.jpg" alt="Orçamentos Abertos" /></center>
+	<center>
+		<img src="/img/orcamentos/menu_orcamentos_abertos.jpg" />
+	</center>
 	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("orcamentos.index.abertos.item_1") %></p>
 	<br/><br/>
 	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("orcamentos.index.abertos.item_2") %></p>
-	<center><img src="/img/orcamentos/orcamentos_abertos.jpg" alt="Orçamentos Abertos" /></center>
+	<center>
+		<img src="/img/orcamentos/orcamentos_abertos.jpg"  />
+	</center>
 	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("orcamentos.index.abertos.item_3") %></p>
 	<br/><br/>
 	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("orcamentos.index.abertos.item_4") %></p>
-	<center><img src="/img/orcamentos/orcamento_aberto.jpg" alt="Orçamentos Abertos" /></center>
+	<center>
+		<img src="/img/orcamentos/orcamento_aberto.jpg"  />
+	</center>
 	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("orcamentos.index.abertos.item_5") %></p>
 	<p class="note" style="text-indent: 3em; text-align: justify;"><%= I18n.t("orcamentos.index.abertos.item_6") %></p>
 </div>
 <br/><br/><br/><br/>
+
+
 <!-- Pendente Auditor -->
 <div id ="auditor" > &nbsp </div>
 <h2 id="auditor_inner"><%= I18n.t("orcamentos.index.table_of_contents.auditor") %></h2>
 <div class="row-fluid">
-	<center><img src="/img/orcamentos/menu_orcamentos_auditor.jpg" alt="Pendente Auditor" /></center>
+	<center>
+		<img src="/img/orcamentos/menu_orcamentos_auditor.jpg"  />
+	</center>
 	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("orcamentos.index.auditor.item_1") %></p>
 	<br/><br/>
 	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("orcamentos.index.auditor.item_2") %></p>
-	<center><img src="/img/orcamentos/orcamentos_auditor.jpg" alt="Pendente Auditor" /></center>
+	<center>
+		<img src="/img/orcamentos/orcamentos_auditor.jpg" />
+	</center>
 	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("orcamentos.index.auditor.item_3") %></p>
 	<br/><br/>
 	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("orcamentos.index.auditor.item_4") %></p>
-	<center><img src="/img/orcamentos/orcamento_auditor.jpg" alt="Pendente Auditor" /></center>
+	<center>
+		<img src="/img/orcamentos/orcamento_auditor.jpg"  />
+	</center>
 	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("orcamentos.index.auditor.item_5") %></p>
+	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("orcamentos.index.auditor.item_6") %></p>
+	<center>
+		<img src="/img/orcamentos/.jpg" />
+	</center>
+	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("orcamentos.index.auditor.item_7") %></p>
+	<center>
+		<img src="/img/orcamentos/.jpg"  />
+	</center>
+	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("orcamentos.index.auditor.item_8") %></p>
 </div>
 <br/><br/><br/><br/>
+
+
 <!-- Pendente Local Atendimento -->
 <div id ="local_atendimento" > &nbsp </div>
 <h2 id="local_atendimento_inner"><%= I18n.t("orcamentos.index.table_of_contents.local_atendimento") %></h2>
 <div class="row-fluid">
-	<center><img src="/img/orcamentos/menu_orcamentos_local.jpg" alt="Pendente Local Atendimento" /></center>
+	<center>
+		<img src="/img/orcamentos/menu_orcamentos_local.jpg"  />
+	</center>
 	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("orcamentos.index.local_atendimento.item_1") %></p>
 	<br/><br/>
 	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("orcamentos.index.local_atendimento.item_2") %></p>
-	<center><img src="/img/orcamentos/orcamentos_local.jpg" alt="Pendente Local Atendimento" /></center>
+	<center>
+		<img src="/img/orcamentos/orcamentos_local.jpg"  />
+	</center>
 	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("orcamentos.index.local_atendimento.item_3") %></p>
 	<br/><br/>
 	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("orcamentos.index.local_atendimento.item_4") %></p>
@@ -175,25 +277,96 @@
 			<li> <%= I18n.t("orcamentos.index.local_atendimento.item_6") %></p></li>
 		</ul>
 	</div>
-	<center><img src="/img/orcamentos/orcamento_local.jpg" alt="Pendente Local Atendimento" /></center>
+	<center>
+		<img src="/img/orcamentos/orcamento_local.jpg"  />
+	</center>
 	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("orcamentos.index.local_atendimento.item_7") %></p>
+	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("orcamentos.index.local_atendimento.item_8") %></p>	
+	<center>
+		<img src="/img/orcamentos/local_atendimento.png" />
+	</center>
+	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("orcamentos.index.local_atendimento.item_9") %></p>
 </div>
 <br/><br/><br/><br/>
+
 <!-- Pendente Fornecedor -->
 <div id ="pendentes_fornecedor" > &nbsp </div>
 <h2 id="pendentes_fornecedor_inner"><%= I18n.t("orcamentos.index.table_of_contents.pendentes_fornecedor") %></h2>
 <div class="row-fluid">
-	<center><img src="/img/orcamentos/menu_orcamentos_fornecedor.jpg" alt="Pendente Fornecedor" /></center>
+	<center>
+		<img src="/img/orcamentos/pendentefornecedor1.png" />
+	</center>
 	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("orcamentos.index.pendentes_fornecedor.item_1") %></p>
 	<br/><br/>
 	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("orcamentos.index.pendentes_fornecedor.item_2") %></p>
-	<center><img src="/img/orcamentos/orcamentos_fornecedor.jpg" alt="Pendente Fornecedor" /></center>
+	<center>
+		<img src="/img/orcamentos/pendentefornecedor2.png" />
+	</center>
 	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("orcamentos.index.pendentes_fornecedor.item_3") %></p>
 	<br/><br/>
 	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("orcamentos.index.pendentes_fornecedor.item_4") %></p>
-	<center><img src="/img/orcamentos/orcamento_fornecedor.jpg" alt="Pendente Fornecedor" /></center>
-	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("orcamentos.index.pendentes_fornecedor.item_5") %></p>
+	<center>
+		<img src="/img/orcamentos/pendentefornecedor3.png" />
+	</center>
 </div>
+<br/><br/><br/><br/>
+	
+
+<!-- NFs Recebidas -->
+<div id ="nf_recebida" > &nbsp </div>
+<h2 id="nf_recebida_inner"><%= I18n.t("orcamentos.index.table_of_contents.nf_recebida") %></h2>
+<div class="row-fluid">
+	<center>
+		<img src="/img/orcamentos/.jpg" />
+	</center>
+	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("orcamentos.index.nf_recebida.item_1") %></p>
+	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("orcamentos.index.nf_recebida.item_2") %></p>
+	<center>
+		<img src="/img/orcamentos/.jpg" />
+	</center>
+	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("orcamentos.index.nf_recebida.item_3") %></p>
+	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("orcamentos.index.nf_recebida.item_4") %></p>
+</div>
+<br/><br/><br/><br/>
+
+
+<!-- Aguardando Reprocessamento de Título -->
+<div id ="rep_titulo" > &nbsp </div>
+<h2 id="rep_titulo_inner"><%= I18n.t("orcamentos.index.table_of_contents.rep_titulo") %></h2>
+<div class="row-fluid">
+	<center>
+		<img src="/img/orcamentos/.jpg" />
+	</center>
+	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("orcamentos.index.rep_titulo.item_1") %></p>
+	<br/><br/>
+	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("orcamentos.index.rep_titulo.item_2") %></p>
+	<center>
+		<img src="/img/orcamentos/.jpg" />
+	</center>
+	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("orcamentos.index.rep_titulo.item_3") %></p>
+	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("orcamentos.index.rep_titulo.item_4") %></p>
+</div>
+<br/><br/><br/><br/>
+
+<!-- Aguardando Confirmação de Faturamento -->
+<div id ="conf_faturamento" > &nbsp </div>
+<h2 id="conf_faturamento_inner"><%= I18n.t("orcamentos.index.table_of_contents.conf_faturamento") %></h2>
+<div class="row-fluid">
+	<center>
+		<img src="/img/orcamentos/.jpg" />
+	</center>
+	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("orcamentos.index.conf_faturamento.item_1") %></p>
+	<br/><br/>
+	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("orcamentos.index.conf_faturamento.item_2") %></p>
+	<center>
+		<img src="/img/orcamentos/.jpg" />
+	</center>
+	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("orcamentos.index.conf_faturamento.item_3") %></p>
+	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("orcamentos.index.conf_faturamento.item_4") %></p>
+</div>
+<br/><br/><br/><br/>
+
+
 <!--Botão proximo -->
 <ul class="pager">
   <li class="previous"><%= link_to("&larr; " + I18n.t("menu_principal.index.title"), "menu_principal") %></li>

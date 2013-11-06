@@ -32,6 +32,8 @@ navigation = [
   { "url" => "fluxograma",                           "view_path" => "fluxograma/index"},
 # Menu Principal
   { "url" => "menu_principal",                       "view_path" => "menu_principal/index"},
+# Ações Disoponiveis
+  { "url" => "acoes_disponiveis",                       "view_path" => "acoes_disponiveis/index"},
 # Solicitar OPME
   { "url" => "solicitar_opme",                       "view_path" => "solicitar_opme/index"},
 # Orçamentos

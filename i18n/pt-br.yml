@@ -1,4 +1,4 @@
-"pt-BR":
+﻿"pt-BR":
   main_menu:
     home: "Início"
     docs: "Documentação Comprador"
@@ -22,7 +22,7 @@
         features_yield: "Funcionalidades e Finalidades."
         who_uses: "Quem Pode Utilizar?"
       how_it_works:
-        paragraph_1: "O Portal de Compras é uma solução para área de saúde no modelo <a href='http://pt.wikipedia.org/wiki/Software_como_serviço' target='blank' class='external'>SaaS</a>. É uma ferramenta que possibilita todo o acompanhamento e gestão das negociações, auditoria técnica e médica, controle de utilização do material cotado/provisionado na cirurgia, sua posterior aprovação para faturamento e possíveis divergências de materiais OPME, em lotes e em regime de leilão reverso, permitindo um maior poder de negociação, que geralmente são de alto custo."
+        paragraph_1: "O Portal de Compras é uma solução para área de saúde no modelo <a href='http://pt.wikipedia.org/wiki/Software_como_serviço' target='blank' class='external'>SaaS</a>. É uma ferramenta que possibilita todo o acompanhamento e gestão das negociações de materiais OPME, auditoria técnica e médica, controle de utilização do material cotado/provisionado na cirurgia, sua posterior aprovação para faturamento e possíveis divergências de materiais OPME, em lotes e em regime de leilão reverso, permitindo um maior poder de negociação, que geralmente são de alto custo."
       features_yield:
         paragraph_1: "O Portal de Compras é a solução da CloudMed que possibilita todo o acompanhamento e gestão das negociações de materiais OPME, auditoria técnica e médica, controle do material provisionado para a cirurgia, sua posterior aprovação para faturamento e possíveis divergências. Indicado para Operadoras de Planos de Saúde e Prestadores."
         feature_1: "Características"
@@ -34,7 +34,7 @@
         feature_7: "Oferece a geração de relatório de economia, cotação e faturamento;"
         feature_8: "Permite a indexação de consultas, guias e quaisquer documentos necessários."
         feature_9: "Benefícios"
-        feature_10: "Acessível por qualquer meio eletrônico que possua internet (pc, notebook, tablet, celular, etc);"
+        feature_10: "Acessível por qualquer meio eletrônico que possua internet (PC’s, Notebooks, Tablets, Celulares, etc);"
         feature_11: "Controle total do processo, desde a cotação até a utilização do material;"
         feature_12: "Maior poder de negociação e compra dos materiais, que geralmente são de alto custo;"
         feature_13: "Relatório e histórico, por perfil, de todas as etapas do processo a ser gerenciado;"
@@ -47,7 +47,7 @@
         item_2: "Hospitais;"
         item_3: "Fornecedores de materiais OPME;"
         item_4: "Clínicas Cirúrgicas;"
-        item_5: "Todo seguimento de empresas que lidam com cotações de materiais de Orteses, Próteses e Materiais Especiais."
+        item_5: "Todo seguimento de empresas que lidam com cotações de materiais de Órteses, Próteses e Materiais Especiais."
   understanding_the_system:
    index:
       title: "Entendendo o Sistema"
@@ -58,9 +58,9 @@
         dashboard: "Dashboard"
         mural: "Mural"
       welcome:
-        item_1: "Olá, bem vindo ao Portal de Compras da CloudMed! Iniciaremos agora, um passeio pelo sistema e suas funções, entendendo seus principais processos e funcionalidades. Fique a vontade e, qualquer dúvida, entre em contato conosco!"
+        item_1: "Olá, bem-vindo ao Portal de Compras da CloudMed! Iniciaremos agora, um passeio pelo sistema e suas funções, entendendo seus principais processos e funcionalidades. Fique à vontade e, qualquer dúvida, entre em contato conosco!"
       dashboard:
-        item_1: "Abaixo temos o 'Dashboard' ou se preferir nosso 'Painel de Controle'! Esta é a primeira visualização que você terá ao entrar no Portal de Compras. Reunimos aqui de forma simples e objetiva as informações mais relevantes do sistema, de acordo com a movimentação e perfil de seu usuário. Perceba que na parte superior direita da tela existe um campo de busca: nele é possível buscar qualquer informação digitando somente uma palavra ou frase. Dependendo do filtro digitado, o sistema mostrará diretamente a informação ou uma lista de registros encontrados. Abuse desta funcionalidade! Nós a desenvolvemos para agilizar a busca de informações de nossos usuários!"
+        item_1: "Abaixo temos o 'Dashboard' ou se preferir nosso 'Painel de Controle'! Esta é a primeira visualização que você terá ao entrar no Portal de Compras. Reunimos aqui de forma simples e objetiva as informações mais relevantes do sistema, de acordo com a movimentação e perfil de seu usuário. Perceba que na parte superior direita da tela existe um campo de busca: nele é possível buscar qualquer informação digitando somente uma palavra ou frase. Dependendo do filtro digitado, o sistema mostrará diretamente a informação ou uma lista de registros encontrados. Abuse desta funcionalidade! Nós a desenvolvemos para agilizar a busca de informações dos nossos usuários!"
         item_2: "Dashboard"
         item_3: "<a href='orcamentos#index' target='blank'>Orçamentos</a>"
         item_4: "<a href='orcamentos#notas_fiscais' target='blank'>Aguardando Notas Fiscais</a>"
@@ -68,7 +68,7 @@
         item_6: "<a href='orcamentos#pendentes' target='blank'>Pendentes Fornecedor</a>"
         item_7: "Veja abaixo onde cada parte do dashboard te leva de maneira fácil e prática:"
       mural:
-        item_1: "Abaixo apresentamos nosso mural. Nele você visualiza as publicações feitas pela Cloudmed, como informações úteis aos usuários, dicas e alertas. Dessa forma ser informado fica rápido e prático!"
+        item_1: "Abaixo apresentamos nosso mural. Nele você visualiza as publicações feitas pela CloudMed, como informações úteis aos usuários, dicas e alertas. Dessa forma, ser informado fica rápido e prático!"
         item_2: "Mural"
   menu_principal:
    index:
@@ -85,11 +85,11 @@
         item_1: "Abaixo você vê o menu principal do sistema. Ele sempre estará presente e visível no topo da tela, disponibilizando as ações para o usuário, de acordo com suas permissões previamente definidas."
         item_2: "Menu Principal"
       menu_principal_dashboard:
-        item_1: "Aqui, você será redirecionado para o dashboard, que reúne as informações de mais relevância sobre as operações realizadas no sistemas, sem também uma maneira de acessar de forma rápida qualquer informação lá descrita:"
+        item_1: "Aqui, você será redirecionado para o dashboard, que reúne as informações de maior relevância sobre as operações realizadas no sistemas, sendo também uma maneira de acessar de forma rápida qualquer informação lá descrita:"
         item_2: "Menu Principal > Dashboard"
         item_3: "Dashboard"
       menu_principal_solicitar_opme:
-        item_1: "Em 'solicitar OPME' você dá inicio ao orçamento no sistema, conforme podemos ver abaixo."
+        item_1: "Em 'solicitar OPME' você dá início ao orçamento no sistema, conforme podemos ver abaixo."
         item_2: "Menu Principal > Solicitar OPME"
         item_3: "Solicitar OPME"
       menu_principal_orcamentos:
@@ -112,7 +112,7 @@
         item_5: "Faturamento"
         item_6: "Menu Principal > Relatórios"
       menu_principal_configuracoes:
-        item_1: "Além das configurações básicas do sistema, o menu 'Configurações' disponibiliza o cadastro dos produtos, onde será necessário onde é permitido atualizar informações dos materiais, seus fornecedores, cadastros, códigos, etc, conforme as seguintes opções:"
+        item_1: "Além das configurações básicas do sistema, o menu 'Configurações' disponibiliza o cadastro dos produtos, onde é permitido atualizar informações dos materiais, seus fornecedores, cadastros, códigos, etc, conforme as seguintes opções:"
         item_2: "Meus Dados"
         item_3: "Lista de Produtos"
         item_4: "Convidar Fornecedor"
@@ -122,6 +122,35 @@
         item_8: "Pesquisa >Fornecedor"
         item_9: "Pesquisa >Prestador"
         item_10: "Menu Principal > Configurações"
+  acoes_disponiveis:
+   index:
+      title: "Ações Disponíveis"
+      table_of_contents: 
+        index: "Índice"
+        agendar_fornecedor: "Agendar com Fornecedor"
+        enviar_faturamento: "Enviar P/ Faturamento"
+        confirmar_faturamento: "Confirmar Faturamento"
+        cancelar_orcamento: "Cancelar Orçamento"
+      agendar_fornecedor:
+        item_1: "Menu > Ações Disponíveis > Agendar com Fornecedor"
+        item_2: "Essa opção está liberada somente quando um orçamento se encontra no status <strong>'Pendente Local de Atendimento'</strong>. Acessando, você chegará a seguinte tela:"
+        item_3: "Agendar com Fornecedor"
+        item_4: "Sem ser complicado, o único campo requerido para fazer o pedido ao fornecedor é o campo 'Observações', nele você coloca as informações relevantes para que o fornecedor visualize ao receber o pedido via e-mail ;)"
+      enviar_faturamento:
+        item_1: "Menu > Ações Disponíveis > Enviar P/ Faturamento"
+        item_2: "Essa opção está liberada somente quando um orçamento se encontra no status <strong>'Concluído'</strong>. Acessando, você visualisará a seguinte tela:"
+        item_3: "Enviar P/ Faturamento"
+        item_4: ""
+      confirmar_faturamento:
+        item_1: "Menu > Ações Disponíveis > Confirmar Faturamento"
+        item_2: "Essa opção está liberada, (Atenção, a opção 'Ações Disponíveis' só aparece quando você está visualizando os dados de um orçamento específico)"
+        item_3: "Enviar P/ Faturamento"
+        item_4: "Sendo bem resoluta, ao realizar esta ação o orçamento passa para <strong>'Faturado'</strong>.(Alguma informação relevante para o setor de compras faturar o pedido ao fornecedor)"
+      cancelar_orcamento:
+        item_1: "Menu > Ações Disponíveis > Cancelar Orçamento"
+        item_2: "Essa opção está liberada, independentemente do status em que o orçamento se encontra, veja no menu acima como acessá-la. (Atenção, a opção 'Ações Disponíveis' só aparece quando você está visualizando os dados de um orçamento específico)"
+        item_3: "Cancelar Orçamento"
+        item_4: "Para cancelar um orçamento, obrigatoriamente deve se informar a justificativa para isso. É importante saber que um orçamento cancelado não participa nas métricas para gerar os relatórios :)"
   solicitar_opme:
    index:
       title: "Solicitar OPME"
@@ -130,7 +159,7 @@
         solicitar_opme: "Solicitar OPME"
       solicitar_opme:
         item_1: "Menu > Solicitar OPME"
-        item_2: "Este é o primeiro passo para iniciar um novo orçamento no Portal de Compras da CloudMed! Como forma de esclarecimento, as informações necessárias são: Empresa Prestadora , Empresa Origem, Data da Solicitação, Data Prevista, o Nome do Paciente e seu Código / Cartão do Paciente, o Prestador, Telefone do Consultório, o Local de Atendimento, o Tipo de Atendimento, o Procedimento Médico e o CID. Veja abaixo como é distribuída a solicitação destes dados, para criação de um novo orçamento:"
+        item_2: "Este é o primeiro passo para iniciar um novo orçamento no Portal de Compras da CloudMed! Como forma de esclarecimento, as informações necessárias são: Empresa Prestadora, Empresa Origem, Data da Solicitação, Data Prevista, o Nome do Paciente e seu Código / Cartão do Paciente, o Prestador, Telefone do Consultório, o Local de Atendimento, o Tipo de Atendimento, o Procedimento Médico e a CID. Veja abaixo como é distribuída a solicitação destes dados, para criação de um novo orçamento:"
         item_3: "Tela Solicitar OPME"
         item_4: "Após incluir as informações necessárias e clicar em 'Continuar', observe que o sistema te levará para a próxima fase, onde é possível escolher os produtos que serão utilizados na cirurgia e que participarão da cotação. Disponibilizamos diversos filtros para que a busca pelo material seja fácil e rápida. Veja:"
         item_5: "Seleção de produtos para o orçamento"
@@ -138,7 +167,7 @@
         item_7: "Adição de Produtos no Orçamento"
         item_8: "Após adicionar os materiais ao orçamento, observe que todos estarão listados na parte inferior (rodapé) da página. Clicando em ‘continuar’ você será encaminhado para a página abaixo, para confirmação dos materiais e definição das quantidades. Nesta seção também é possível adicionar alguma observação (não obrigatória) ao orçamento. Assim, os próximos usuários ficarão cientes da observação incluída no momento da seleção dos materiais."
         item_9: "Confirmação de Produtos no Orçamento"
-        item_10: "Clicando em 'Concluir', você acaba de inserir mais um orçamento para ser cotado pelo Portal de Compras da CloudMed! Repare que o orçamento, quando criado, exibirá seu status (Aberto) destacado a frente de seu número (). Estes são alguns filtros que podem ser usados para pesquisa ou busca no sistema."
+        item_10: "Clicando em 'Concluir', você acaba de inserir mais um orçamento para ser cotado pelo Portal de Compras da CloudMed! Repare que o orçamento, quando criado, exibirá seu status (Aberto) destacado a frente de seu número. Estes são alguns filtros que podem ser usados para pesquisa ou busca no sistema."
         item_11: "Orçamento Aberto"
   orcamentos:
    index:
@@ -146,15 +175,19 @@
       table_of_contents: 
         index: "Índice"
         localizar: "Localizar Orçamento"
-        faturados: "Faturados/10 dias"
+        faturados: "Faturados"
         notas_fiscais: "Aguardando Notas Fiscais"
         concluidos: "Concluídos"
         divergencias: "Divergências"
+        divergencias_fornecedor: "Divergências Pendentes c/ Fornecedor"
         abertos: "Abertos"
         auditor: "Pendente Auditor"
         local_atendimento: "Pendente Local Atendimento"
         pendentes_fornecedor: "Pendente Fornecedor"
-      localizar:
+        nf_recebida: "Notas Fiscais Recebidas"
+        rep_titulo: "Aguardando Reprocessamento de Título"
+        conf_faturamento: "Aguardando Confirmação de Faturamento"
+      localizar: 
         item_1: "Menu > Orçamentos > Localizar Orçamento"
         item_2: "Em 'Localizar Orçamentos', o Portal de Compras oferece uma variedade de filtros para que você encontre seus orçamentos da maneira mais prática e rápida. Confira os diferentes tipos de filtros criados para facilitar a busca: Nº de Orçamento, a Data do Pedido, o Solicitante, a Data Prevista, a Origem, a Data de última Movimentação, entre outros:"
         item_3: "Pesquisa Orçamentos"
@@ -175,7 +208,7 @@
         item_18: "Aguardando Confirmação Faturamento"		
       faturados:
         item_1: "Menu > Orçamentos > Faturados/10 dias"
-        item_2: "Em 'Orçamentos > Faturados/10 dias' encontramos a lista de orçamentos os quais os materiais já aprovados e entregues, as cirurgias realizadas e auditadas, e as notas fiscais anexadas, nos últimos 10 dias. Para mais informações sobre um determinado orçamento, basta clicar em seu número (lado esquerdo)."
+        item_2: "Em 'Orçamentos > Faturados/10 dias' encontramos a lista de orçamentos os quais os materiais já foram aprovados e entregues, as cirurgias realizadas e auditadas, e as notas fiscais anexadas, nos últimos 10 dias. Para mais informações sobre um determinado orçamento, basta clicar em seu número (lado esquerdo)."
         item_3: "Lista de Orçamentos Faturados/10 dias"
         item_4: "Ao escolher um orçamento, este será exibido na forma abaixo. Aqui, você visualiza as Propriedades do Orçamento, exibindo suas informações, tais como: status, dados do pedido, produto(s) solicitado(s), seu histórico e arquivos anexos."
         item_5: "Orçamento Faturado"
@@ -185,33 +218,41 @@
         item_3: "Orçamentos Aguardando Notas Fiscais"
         item_4: "Clicando em seu número (lado esquerdo), você visualiza as Propriedades do Orçamento, exibindo suas informações, tais como: status, dados do pedido, produto(s) solicitado(s), seu histórico e arquivos anexos. E, para anexar os arquivos da nota fiscal, ficando à disposição para download, você deve clicar na aba 'Arquivos Anexos' como a imagem demonstra:"
         item_5: "Orçamento Aguardando Nota/s Fiscal/is"
-        item_6: "Já na aba indicada, você deve marcar a opção 'Nota Fiscal'. Em seguida e logo abaixo, clique no botâo 'Escolher arquivo', para localizar o(s) arquivo(s) referente(s) a nota fiscal do orçamento. Antes de 'Concluir', você pode adicionar uma descrição para o arquivo que está sendo anexado. Assim, os arquivos que foram anexados, e sua descrição, podem ser visualizados."
-        item_7: "Anexando arquivo(NFs) a um Orçamento"
+        item_6: "Já na aba indicada, você deve marcar a opção 'Nota Fiscal'. Em seguida e logo abaixo, clique no botão 'Escolher arquivo', para localizar o(s) arquivo(s) referente(s) a nota fiscal do orçamento. Antes de 'Concluir', você pode adicionar uma descrição para o arquivo que está sendo anexado. Assim, os arquivos que foram anexados, e sua descrição, podem ser visualizados."
+        item_7: "Anexando arquivo(NFe) à um Orçamento"
       concluidos:
         item_1: "Menu > Orçamentos > Concluídos"
-        item_2: "Em 'Orçamentos > Concluídos' encontramos a lista de orçamentos os quais os materiais já foram aprovados e entregues, as cirurgias realizadas e auditadas, porém estão aguardando o envio do pedido para faturamento e posterior indexção da nota fiscal, conforme a imagem abaixo."
+        item_2: "Em 'Orçamentos > Concluídos' encontramos a lista de orçamentos os quais os materiais já foram aprovados e entregues, as cirurgias realizadas e auditadas, porém estão aguardando o envio do pedido para faturamento e posterior indexação da nota fiscal, conforme a imagem abaixo."
         item_3: "Pesquisa Orçamentos Concluídos"
         item_4: "Clicando no número (lado esquerdo), você visualiza as Propriedades do Orçamento, exibindo suas informações, tais como: status, dados do pedido, produto(s) solicitado(s), seu histórico e arquivos anexos."
         item_5: "Orçamento Concluído"
       divergencias:
         item_1: "Menu > Orçamentos > Divergências"
-        item_2: "Em 'Orçamentos > Divergências' encontramos a lista de orçamentos os queis os materiais já foram aprovado e entregues, as cirurgias realizada e auditadas, porém há divergência entre os materiais previamente autorizados e aqueles realmente utilizados na cirurgia. Neste status, o orçamento permanece em 'Divergência' até ser novamente auditado, para ajuste dos produtos realmente utilizados:"
+        item_2: "Em 'Orçamentos > Divergências' encontramos a lista de orçamentos os quais os materiais já foram aprovados e entregues, as cirurgias realizadas e auditadas, porém há divergência entre os materiais previamente autorizados e aqueles realmente utilizados na cirurgia. Neste status, o orçamento permanece em 'Divergência' até ser novamente auditado, para ajuste dos produtos realmente utilizados:"
         item_3: "Pesquisa Orçamentos com Divergências"
         item_4: "Acessando um orçamento com divergência, clicando no número (lado esquerdo), é possível visualizar suas Propriedades, exibindo os dados do pedido, os produtos selecionados anteriormente, e os materiais utilizados na cirurgia e que, por algum motivo, divergem dos anteriores. É neste status e especificamente nesta seção que é feita a auditoria das divergências. Verifique que existem as seguintes opções: (Aprovar e Negar Todos os Produtos, e também a opção de Ajustar o Orçamento produto a produto, veja:)"
         item_5: "Orçamentos com Divergências"
+      divergencias_fornecedor:
+        item_1: "Divergências Pendentes com o Fornecedor"
+        item_2: "Um orçamento entra nesse status quando é selecionado <strong>Divergências no Orçamento</strong> no status <a href='orcamentos#local_atendimento' target='blank'>Pendente Local Atendimento</a> e os produtos que foram adicionados não possuem um valor pré-definido e ainda dependem da precificação do Fornecedor."
+        item_3: "Orçamento Divergente e Pendente com o Fornecedor"
+        item_4: "Assim que o fornecedor precifica o produto, automaticamente o orçamento muda seu status para  <a href='orcamentos#divergencias' target='blank'>Divergência</a>, assim, ele já pode continuar seu fluxo normalmente. :)"
       abertos:
         item_1: "Menu > Orçamentos > Abertos"
         item_2: "Através do menu acima, 'Orçamentos > Aberto', você será encaminhado para a seção que é exibida abaixo. A imagem mostra a lista de orçamentos que estão no status 'Aberto', como também as demais opções desta seção."
         item_3: "Pesquisa Orçamentos Abertos"
-        item_4: "O status 'Aberto' é atribuido assim que é feita solicitação de um OPME (link SOLICITAR OPME), ou seja, quando é preenchida as informações básicas do beneficiário e do procedimento médico, após a pesquisa e seleção dos materiais a serem cotados, feita a revisão, informada a quantidade e finalmente concluído. A visualização da presente seção tem considerável relevância, pois é nela que aparecerão os valores dos produtos a serem cotados, para posterior seleção do melhor fornecedor e continuação do orçamento:"
+        item_4: "O status 'Aberto' é atribuído assim que é feita solicitação de um OPME <a href='solicitar_opme#solicitar_opme' target='blank'>Solicitar OPME</a>, ou seja, quando são preenchidas as informações básicas do beneficiário e do procedimento médico, após a pesquisa e seleção dos materiais a serem cotados, feita a revisão, informada a quantidade e finalmente concluído. A visualização da presente seção tem considerável relevância, pois é nela que aparecerão os valores dos produtos a serem cotados, para posterior seleção do melhor fornecedor e continuação do orçamento:"
         item_5: "Orçamento Aberto"
-        item_6: "É permitido selecionar um produto cujo fornecedor ainda não tenha preenchido o valor. Neste caso, ele (o fornecedor) será imediatamente notificado da compra, e o orçamento assumo o status de 'Pendente com Fornecedor'."
+        item_6: "É permitido selecionar um produto cujo fornecedor ainda não tenha preenchido o valor. Neste caso, ele (o fornecedor) será imediatamente notificado da compra, e o orçamento assume o status de 'Pendente com Fornecedor'."
       auditor:
         item_1: "Menu > Orçamentos > Pendentes Auditor"
         item_2: "Em 'Orçamentos > Pendentes Auditor', o sistema exibe os orçamentos que, de alguma forma, dependem do auditor para dar continuidade, veja como esta lista é disposta abaixo:"
         item_3: "Pesquisa Orçamentos Pendentes com Auditor"
-        item_4: "Acessando qualquer orçamento na lista pelo seu número, o auditor terá acesso a tela abaixo. Repare que nesta tela estão exibidos os produtos que foram selecionados pelo setor compras, para participarem do orçamento. Neste status, o auditor consegue verificar todas as informações (paciente, prestador, produtos, fornecedores e etc) para que analise e confirme se os produtos selecionados são pertinentes para a autorização. Note que a tela exibe tanto a opção 'Aprovar e Negar Todos (produtos)', quanto a opção de 'Autorizar/Negar por produto'. Confira:"
+        item_4: "Acessando qualquer orçamento na lista pelo seu número, o auditor terá acesso a tela abaixo. Repare que nesta tela são exibidos os produtos que foram selecionados pelo setor de compras, para participarem do orçamento. Neste status, o auditor consegue verificar todas as informações (paciente, prestador, produtos, fornecedores e etc.) para que analise e confirme se os produtos selecionados são pertinentes para a autorização. Note que a tela exibe tanto a opção 'Aprovar e Negar Todos (produtos)', quanto a opção de 'Autorizar/Negar por produto'. Confira:"
         item_5: "Orçamento Pendente com Auditor"
+        item_6: "Para negar qualquer produto dentro do orçamento, obrigatoriamente deve se preencher o campo de justificativa. Se todos os produtos dentro do orçamento forem negados, o usuário será redirecionado para a página abaixo onde deverá colocar uma justificativa geral para o orçamento:"
+        item_7: "Agora, se pelo menos um produto dentro do orçamento for aprovado, o auditor será encaminhado para a seguinte tela abaixo:"
+        item_8: "É solicitado uma senha de autorização, sem essa senha não se consegue aprovar o orçamento."
       local_atendimento:
         item_1: "Menu > Orçamentos > Pendentes Local Atendimento"
         item_2: "Em 'Orçamentos > Pendentes Local Atendimento', o sistema exibe os orçamentos já aprovados, auditados e entregues, aguardando a realização da cirurgia. Veja a lista abaixo:"
@@ -220,12 +261,29 @@
         item_5: "<strong>Orçamento Concluído:</strong> Selecionando esta opção, você confirma que todos os produtos e fornecedores que estão no orçamento são os que realmente foram utilizados na cirurgia. Assim, o orçamento passa para o status 'Concluído' e fica pendente apenas do faturamento para sua finalização total."
         item_6: "<strong>Divergências no Orçamento: </strong>Selecionando esta opção, você informa que parcial ou totalmente o orçamento está divergente, em razão do produto ou fornecedor. Assim, o orçamento passa para o status 'Divergência' e fica disponível para uma nova auditoria."
         item_7: "Orçamento Pendente com Local Atendimento"
+        item_8: "Selecionando <strong>Orçamento Concluído</strong> o orçamento já muda diretamente para o status <a href='orcamentos#concluidos' target='blank'>Concluído</a>. Já selecionando <strong>Divergências no Orçamento</strong> você seguirá para página abaixo: "
+        item_9: "É nessa tela que você confirma e modifica quais produtos, marcas e fornecedores realmente participaram da cirurgia. Aqui você ajusta qualquer divergência que houve de acordo com a aprovação do auditor. Concluindo as alterações, o orçamento passa para o status <a href='orcamentos#divergencias' target='blank'>Divergência</a>."
       pendentes_fornecedor:
         item_1: "Menu > Orçamentos > Pendentes Fornecedor"
         item_2: "Em 'Orçamentos > Pendentes Fornecedor' você visualiza os orçamentos cujos materiais/produtos já foram escolhidos, bem como os fornecedores, mas que ainda não retornaram (os fornecedores) os valores dos produtos. Veja:"
         item_3: "Pesquisa Orçamentos Pendentes com Fornecedor"
         item_4: "Selecionando o orçamento, você visualiza todas as informações e produtos que ele contém. Nesse status o orçamento fica 'travado' com o fornecedor, pois, o Portal de Compras necessita do retorno do fornecedor para saber qual é sua precificação. Somente com a ação do fornecedor o orçamento será liberado para prosseguir com seu fluxo."
         item_5: "Orçamento Pendente com Fornecedor"
+      nf_recebida:
+        item_1: "Menu > Orçamentos > Notas Fiscais Recebidas"
+        item_2: "Podemos considerar este status do orçamento equivalente ao <a href='orcamentos#faturados' target='blank' class='external'>Faturado</a>. <br /> Todo orçamento que recebe de anexo um arquivo (.XML) de uma Nota Fiscal Eletrônica, o Portal de Compras CloudMed guarda os dados dessa NFe em sua base de dados e pode até integrar essas informações fiscais com qualquer outro sistema de gestão. Esse é o status final de um orçamento que percorreu esses passos, caso algum problema ocorra nestes processos o orçamento permanece no status <a href='orcamentos#rep_titulo' target='blank' class='external'>Aguardando Reprocessamento de Título</a>."
+        item_3: "Orçamento com NFe recebida"
+        item_4: "Assim, o Portal de Compras CloudMed oferece à você não somente a gestão interna dos orçamentos, mas também, a possibilidade de prolongar essa gestão para softwares externos seja ele qual for (Financeiro, CRM, Estoque e etc.)"
+      rep_titulo:
+        item_1: "Menu > Orçamentos > Aguardando Reprocessamento de Título"
+        item_2: "Um orçamento chega até este status quando ocorre algum problema na comunicação do Portal de Compras com outros softwares. Mais precisamente, ao anexar um arquivo (.XML) de uma Nota Fiscal Eletrônica, o Portal de Compras guardará essas informações contidas no arquivo e iniciará uma comunicação com o software externo, se por algum problema ocorrer uma falha nessa comunicação ou se o aquivo for rejeitdo, o Portal de Compras define esse status para o orçamento para o usuário fique ciente da pendencia dessa transmissão de informações."
+        item_3: "Orçamento Aguardando Reprocessamento de Título"
+        item_4: "Para reprocessar o título, basta verificar e anexar novamente o arquivo (.XML) da Nota Fiscal ao orçamento. Quando tudo estiver certo, o orçamento passará para o status <a href='orcamentos#nf_recebida' target='blank' class='external'>Notas Fiscais Recebidas</a>"
+      conf_faturamento:
+        item_1: "Menu > Orçamentos > Aguardando Confirmação de Faturamento"
+        item_2: "O orçamento entra nesse status após passar por <a href='orcamentos#notas_fiscais' target='blank' class='external'>Agurdando Notas Fiscais</a> e um FORNECEDOR anexa os arquivos fiscais à ele, seja XML ou PDF, assim, é necessário fazer a validação desses arquivos para o fatuamento do orçamento."
+        item_3: "Orçamento Aguardando Confirmação de Faturamento"
+        item_4: "Utilizando a ação que estará disponível <a href='acoes_disponiveis#confirmar_faturamento' target='blank' class='external'>Confirma Faturamento</a> você confirma que os arquivos anexados pelo FORNECEDOR estão corretos e libera o orçamento para seu faturamento."
   relatorios:
    index:
       title: "Relatórios"
@@ -246,7 +304,7 @@
         item_7: "Relatório de Economia"
       produtos_vencidos:
         item_1: "Menu > Relatórios > Produtos Vencidos"
-        item_2: "Nesta seção será exibido o relatório de produtos com código ANVISA vencido (link ANVISA). É possível controlar e pesquisar por um produto específico, preenchendo o campo de busca com o respectivo período. Veja:"
+        item_2: "Nesta seção será exibido o relatório de produtos com código <a href='http://portal.anvisa.gov.br/wps/portal/anvisa/home' target='blank' class='external'>ANVISA</a> vencido. É possível controlar e pesquisar por um produto específico, preenchendo o campo de busca com o respectivo período. Veja:"
         item_3: "Relatório de Produtos Vencidos"
         item_4: "Observe que o sistema exibe a lista com os produtos que estão com o código ANVISA vencidos, com a opção de alterar a data de validade clicando no 'lápis' e salvando as alterações clicando no ícone verde."
       cotacao:
@@ -274,9 +332,10 @@
         pesquisa_local_atendimento: "Pesquisa >Local Atendimento"
         pesquisa_forncedor: "Pesquisa >Fornecedor"
         pesquisa_prestador: "Pesquisa >Prestador"
+        manutencao_regioes: "Manutenção Regiões"
       meus_dados:
         item_1: "Menu > Configurações > Meus Dados"
-        item_2: "Na seção 'Meus Dados' você visualiza as informações referentes à sua empresa. Mantenha sempre as informações fiscais, localização e contatos atualizados, para que o sistema trabalhe corretamente entre todos os usuários que o utilizam. Veja como os dados são exibidos a como fazer editá-los:"
+        item_2: "Na seção 'Meus Dados' você visualiza as informações referentes à sua empresa. Mantenha sempre as informações fiscais, localização e contatos atualizados, para que o sistema trabalhe corretamente entre todos os usuários que o utilizam. Veja como os dados são exibidos e como fazer editá-los:"
         item_3: "Meus Dados"
         item_4: "Clicando em 'Editar Dados' todas as informações na tela se tornam editáveis. Assim, é possível alterar ou inserir dados. É importante lembrar que estas informações são frequentemente utilizadas pelo sistema para seu pleno funcionamento, portanto, esteja certo das informações a serem editadas, tais como: e-mails, telefones, e informações fiscais como CNPJ, Inscrição Estadual e demais."
       lista_produtos:
@@ -287,27 +346,39 @@
         item_5: "Lista de Produtos"
       convidar_fornecedor:
         item_1: "Menu > Configurações > Convidar Fornecedor"
-        item_2: "Visando à expansão da ferramenta, disponibilizaremos a opção de 'Convidar Fornecedor'. Se conhece ou trabalha com algum fornecedor que não está cadastrado no sistema, convide-o a entrar do Portal de Compras! Basta colocar o nome, e-mail e o telefone que o automaticamente faremos contato, por email, convidando o fornecedor a disponibilizar os produtos comercializados no Portal de Compras."
+        item_2: "Visando à expansão da ferramenta, disponibilizaremos a opção de 'Convidar Fornecedor'. Se conhece ou trabalha com algum fornecedor que não está cadastrado no sistema, convide-o a entrar do Portal de Compras! Basta colocar o nome, e-mail e o telefone que o automaticamente faremos contato, convidando o fornecedor a disponibilizar os produtos comercializados no Portal de Compras."
         item_3: "Convidar Fornecedor"
       cadastro_local_atendimento:
-        item_1: "Menu > Cadastro > Local de Atendimento"
-        item_2: "Através do menu acima, entramos na parte de cadastros do sistema. Nesta seção é possível cadastrar os locais de atendimento que realização as cirurgias, ou seja, hospitais, clínicas e derivados. Veja abaixo:"
+        item_1: "Menu > Configurações > Cadastro > Local de Atendimento"
+        item_2: "Através do menu acima, entramos na parte de cadastros do sistema. Nesta seção é possível cadastrar os locais de atendimento que realizarão as cirurgias, ou seja, hospitais, clínicas e derivados. Veja abaixo:"
         item_3: "Cadastro Local Atendimento"
-        item_4: "Acima, é possível verificar os necessários e disponibilizados para a inserção de um novo local de atendimento. Recomendamos sempre cadastrar o máximo de informações possíveis."
+        item_4: "Acima, é possível verificar os dados necessários e disponibilizados pelo sistema para uma a inserção de um novo local de atendimento. Recomendamos sempre cadastrar o máximo de informações possíveis."
       cadastro_prestador:
-        item_1: "Menu > Cadastro > Prestador"
-        item_2: "O cadastro de Prestadores (médicos) é bastante semelhante ao cadastro de Locais de Atendimento, e também necessário para Solicitar OPME (link). Veja abaixo os campos disponibilizados:"
+        item_1: "Menu > Configurações > Cadastro > Prestador"
+        item_2: "O cadastro de Prestadores (médicos) é bastante semelhante ao cadastro de Locais de Atendimento, e também necessário para  <a href='solicitar_opme#solicitar_opme' target='blank'>Solicitar OPME</a>. Veja abaixo os campos disponibilizados:"
         item_3: "Cadastro Prestador"
       pesquisa_local_atendimento:
-        item_1: "Menu > Pesquisa > Local de Atendimento"
+        item_1: "Menu > Configurações > Pesquisa > Local de Atendimento"
         item_2: "Através do menu 'Pesquisas' temos três diferentes tipos de buscas que podem ser feitas."
         item_3: "Pesquisa Local Atendimento"
-        item_4: "Ao pesquisar por Locais de Atendimento, o sistema disponibiliza a opção busca por Código ou Nome, afim de que você encontre facilmente o local de atendimento desejado. Ao fazer a pesquisa, veja a lista que é exibida com os resultados:"
+        item_4: "Ao pesquisar por Locais de Atendimento, o sistema disponibiliza a opção de busca por Código ou Nome, afim de que você encontre facilmente o local de atendimento desejado. Ao fazer a pesquisa, veja a lista que é exibida com os resultados:"
       pesquisa_forncedor:
-        item_1: "Menu > Pesquisa > Fornecedor"
-        item_2: "A pesquisa de fornecedores é bastante semelhante à pesquisa de locais de atendimento, ou seja, é permitido realizar a busca através do Código ou Nome do Fornecedor, como você pode perceber abaixo:"
+        item_1: "Menu > Configurações > Pesquisa > Fornecedor"
+        item_2: "A pesquisa de fornecedores é bastante semelhante à pesquisa de Locais de Atendimento, ou seja, é permitido realizar a busca através do Código ou Nome do Fornecedor, como você pode perceber abaixo:"
         item_3: "Pesquisa Fornecedor"
       pesquisa_prestador:
-        item_1: "Menu > Pesquisa > Prestador"
+        item_1: "Menu > Configurações > Pesquisa > Prestador"
         item_2: "Semelhantes à pesquisa por Locais de Atendimento e Fornecedores, a pesquisa por Prestador disponibiliza a busca através do Código ou Nome do Prestador, e será exibida a seguinte tela:"
         item_3: "Pesquisa Prestador"
+      manutencao_regioes:
+        item_1: "Menu > Configurações > Manutenção Regiões"
+        item_2: "Acessando pelo menu acima, você chega até a tela de Manutenção de Regiões exibida logo abaixo. É aqui que faremos todas as configurações de regionalização do Portal de Compras, toda relação entre PRODUTOS X FORNECEDORES X COMPRADORES é feita aqui e essa configuração sobrepõe as configurações padrões do Portal de Compras onde todos os produtos, de qualquer fornecedor, pode ser vendido para qualquer comprador."
+        item_3: "Manutenção Regiões"
+        item_4: "Clicando em 'Adicionar Região' você será redirecionado para a tela abaixo, não muito complicado, será solicitado um nome e uma descrição para essa nova região."
+        item_5: "Adicionar Região"
+        item_6: "Veja na tela abaixo que, dentro das propriedades de uma região, pecisamente na aba 'Produtos e Fornecedores Região', você tem duas opções para adicionar Fornecedores/Produtos uma região, Veja:"
+        item_7: "<strong>Nova relação Produto/Fornecedor para a Região - </strong> Selecionando essa opção, abrirá uma caixa para que você selecione o fornecedor e posteriormente o produto específico que ele irá fornecede nessa região. Também será solicitado, não sendo obrigatório, um representante e uma data de validade do valor que este produto terá, sabendo que o portal bloqueia cotações desse produto oferecido por este fornecedor após o vencimento."
+        item_8: "<strong>Adicionar todos os produtos de um fornecedor à regiao - </strong> Já entrando nessa opção, será solicitado somente o nome do fornecedor, selecionando um e clicando no botão, TODOS os produtos deste fornecedor será adicionado a região."
+        item_9: "Produtos/Fornecedores Região"
+        item_10: "Acessando a aba 'Compradores da Região' você verá o botão <strong>Novo comprador para a região</strong>, acessando-o, uma simples tela solicitando o nome do comprador aparecerá para que você adicione um novo comprador à essa região. Assim, simples e fácil."
+        item_11: "Compradores Região"
