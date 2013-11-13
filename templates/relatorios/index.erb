@@ -1,38 +1,64 @@
-<center><h1><%= I18n.t("relatorios.index.title") %></h1></center>
-<p class="more-info"><%= I18n.t("general.updated_at", :date => "06/03/2013") %></p>
+<center>
+   <h1><%= I18n.t("relatorios.index.title") %></h1>
+</center>
+<p class="more-info"><%= I18n.t("general.updated_at", :date => "07/11/2013") %></p>
 <h3><%= I18n.t("general.index") %></h3>
 
 
 <!--Indice -->
-<div id="navegador">
- 	<center><ul>
-	<li><a href="#economia_inner"><%= I18n.t("relatorios.index.table_of_contents.economia") %></a></li>
-	<li><a href="#produtos_vencidos_inner"><%= I18n.t("relatorios.index.table_of_contents.produtos_vencidos") %></a></li>
-	<li><a href="#cotacao_inner"><%= I18n.t("relatorios.index.table_of_contents.cotacao") %></a></li>
-	<li><a href="#faturamento_inner"><%= I18n.t("relatorios.index.table_of_contents.faturamento") %></a></li>
-</ul></center>
-</div>	
+<div class="metro-surface">
+   <center>
+      <table>
+         <tr>
+            <td>
+               <a href="#economia_inner">
+                  <div class="metro-tile "><%= I18n.t("relatorios.index.table_of_contents.economia") %></div>
+               </a>
+            </td>
+            <td>
+               <a href="#produtos_vencidos_inner">
+                  <div class="metro-tile metro-tile-green"><%= I18n.t("relatorios.index.table_of_contents.produtos_vencidos") %></div>
+               </a>
+            </td>
+         </tr>
+      </table>
+      <table>
+         <tr>
+            <td>
+               <a href="#cotacao_inner">
+                  <div class="metro-tile metro-tile-red"><%= I18n.t("relatorios.index.table_of_contents.cotacao") %></div>
+               </a>
+            </td>
+            <td>
+               <a href="#faturamento_inner">
+                  <div class="metro-tile metro-tile-teal"><%= I18n.t("relatorios.index.table_of_contents.faturamento") %></div>
+               </a>
+            </td>
+         </tr>
+      </table>
+   </center>
+</div>
 
 
 <!-- Economia  -->
 <div id ="economia" > &nbsp </div>
 <h2 id="economia_inner"><%= I18n.t("relatorios.index.table_of_contents.economia") %></h2>
 <div class="row-fluid">
-	<center><img src="/img/relatorios/relatorios_economia.jpg" alt="Economia" /></center>
-	<p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.economia.item_1") %></p>
-	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("relatorios.index.economia.item_2") %></p>
-	<center><img src="/img/relatorios/pesquisa_relatorio_economia.jpg" alt="Economia" /></center>
-	<p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.economia.item_3") %></p>
-	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("relatorios.index.economia.item_4") %></p>
-	<div style="margin-right:10%;margin-left:10%">
-		<ul class="lista" style="text-align: justify;">
-			<li> <%= I18n.t("relatorios.index.economia.item_5") %></p></li>
-			<br/>
-			<li> <%= I18n.t("relatorios.index.economia.item_6") %></p></li>
-		</ul>
-	</div>
-	<center><img src="/img/relatorios/relatorio_economia.jpg" alt="Economia" /></center>
-	<p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.economia.item_7") %></p>
+   <center><img src="/img/relatorios/relatorios_economia.png"  /></center>
+   <p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.economia.item_1") %></p>
+   <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("relatorios.index.economia.item_2") %></p>
+   <center><img src="/img/relatorios/pesquisa_relatorio_economia.jpg"  /></center>
+   <p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.economia.item_3") %></p>
+   <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("relatorios.index.economia.item_4") %></p>
+   <div style="margin-right:10%;margin-left:10%">
+      <ul class="lista" style="text-align: justify;">
+         <li> <%= I18n.t("relatorios.index.economia.item_5") %></p></li>
+         <br/>
+         <li> <%= I18n.t("relatorios.index.economia.item_6") %></p></li>
+      </ul>
+   </div>
+   <center><img src="/img/relatorios/relatorio_economia.jpg" alt="Economia" /></center>
+   <p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.economia.item_7") %></p>
 </div>
 
 
@@ -40,12 +66,12 @@
 <div id ="produtos_vencidos" > &nbsp </div>
 <h2 id="produtos_vencidos_inner"><%= I18n.t("relatorios.index.table_of_contents.produtos_vencidos") %></h2>
 <div class="row-fluid">
-	<center><img src="/img/relatorios/relatorios_produtos_vencidos.jpg" alt="Produtos Vencidos" /></center>
-	<p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.produtos_vencidos.item_1") %></p>
-	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("relatorios.index.produtos_vencidos.item_2") %></p>
-	<center><img src="/img/relatorios/produtos_vencidos.jpg" alt="Produtos Vencidos" /></center>
-	<p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.produtos_vencidos.item_3") %></p>
-	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("relatorios.index.produtos_vencidos.item_4") %></p>
+   <center><img src="/img/relatorios/relatorios_produtos_vencidos.png" /></center>
+   <p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.produtos_vencidos.item_1") %></p>
+   <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("relatorios.index.produtos_vencidos.item_2") %></p>
+   <center><img src="/img/relatorios/produtos_vencidos.jpg"  /></center>
+   <p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.produtos_vencidos.item_3") %></p>
+   <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("relatorios.index.produtos_vencidos.item_4") %></p>
 </div>
 
 
@@ -53,14 +79,14 @@
 <div id ="cotacao" > &nbsp </div>
 <h2 id="cotacao_inner"><%= I18n.t("relatorios.index.table_of_contents.cotacao") %></h2>
 <div class="row-fluid">
-	<center><img src="/img/relatorios/relatorios_cotacao.jpg" alt="Cotação" /></center>
-	<p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.cotacao.item_1") %></p>
-	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("relatorios.index.cotacao.item_2") %></p>
-	<center><img src="/img/relatorios/pesquisa_relatorio_cotacao.jpg" alt="Cotação" /></center>
-	<p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.cotacao.item_3") %></p>
-	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("relatorios.index.cotacao.item_4") %></p>
-	<center><img src="/img/relatorios/relatorio_cotacao.jpg" alt="Cotação" /></center>
-	<p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.cotacao.item_5") %></p>
+   <center><img src="/img/relatorios/relatorios_cotacao.png"  /></center>
+   <p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.cotacao.item_1") %></p>
+   <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("relatorios.index.cotacao.item_2") %></p>
+   <center><img src="/img/relatorios/pesquisa_relatorio_cotacao.jpg"  /></center>
+   <p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.cotacao.item_3") %></p>
+   <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("relatorios.index.cotacao.item_4") %></p>
+   <center><img src="/img/relatorios/relatorio_cotacao.jpg"  /></center>
+   <p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.cotacao.item_5") %></p>
 </div>
 
 
@@ -68,20 +94,51 @@
 <div id ="faturamento" > &nbsp </div>
 <h2 id="faturamento_inner"><%= I18n.t("relatorios.index.table_of_contents.faturamento") %></h2>
 <div class="row-fluid">
-	<center><img src="/img/relatorios/relatorios_faturamento.jpg" alt="Faturamento" /></center>
-	<p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.faturamento.item_1") %></p>
-	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("relatorios.index.faturamento.item_2") %></p>
-	<center><img src="/img/relatorios/pesquisa_relatorio_faturamento.jpg" alt="Faturamento" /></center>
-	<p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.faturamento.item_3") %></p>
-	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("relatorios.index.faturamento.item_4") %></p>
-	<center><img src="/img/relatorios/relatoriofaturamento.png" alt="Faturamento" /></center>
-	<p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.faturamento.item_5") %></p>
+   <center><img src="/img/relatorios/relatorios_faturamento.png"  /></center>
+   <p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.faturamento.item_1") %></p>
+   <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("relatorios.index.faturamento.item_2") %></p>
+   <center><img src="/img/relatorios/pesquisa_relatorio_faturamento.jpg"  /></center>
+   <p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.faturamento.item_3") %></p>
+   <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("relatorios.index.faturamento.item_4") %></p>
+   <center><img src="/img/relatorios/relatoriofaturamento.png"  /></center>
+   <p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.faturamento.item_5") %></p>
 </div>
 
 
+<!-- Top Produtos  -->
+<div id ="top_produtos" > &nbsp </div>
+<h2 id="top_produtos_inner"><%= I18n.t("relatorios.index.table_of_contents.top_produtos") %></h2>
+<div class="row-fluid">
+   <center><img src="/img/relatorios/relatorios_top_produtos.png"  /></center>
+   <p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.top_produtos.item_1") %></p>
+   <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("relatorios.index.top_produtos.item_2") %></p>
+   <center><img src="/img/relatorios/" /></center>
+   <p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.top_produtos.item_3") %></p>
+   <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("relatorios.index.top_produtos.item_4") %></p>
+   <center><img src="/img/relatorios/" /></center>
+   <p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.top_produtos.item_5") %></p>
+</div>
+
+
+<!-- Top Fornecedores  -->
+<div id ="top_fornecedores" > &nbsp </div>
+<h2 id="top_fornecedores_inner"><%= I18n.t("relatorios.index.table_of_contents.top_fornecedores") %></h2>
+<div class="row-fluid">
+   <center><img src="/img/relatorios/relatorios_top_fornecedores.png"  /></center>
+   <p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.top_fornecedores.item_1") %></p>
+   <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("relatorios.index.top_fornecedores.item_2") %></p>
+   <center><img src="/img/relatorios/" /></center>
+   <p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.top_fornecedores.item_3") %></p>
+   <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("relatorios.index.top_fornecedores.item_4") %></p>
+   <center><img src="/img/relatorios/" /></center>
+   <p align="right" style="font-weight:bold;"><%= I18n.t("relatorios.index.top_fornecedores.item_5") %></p>
+</div>
+
 <p class="note" style="text-indent: 3em; text-align: justify;"><%= I18n.t("relatorios.index.table_of_contents.nota") %></p>
+
+
 <!--Botão proximo -->
 <ul class="pager">
-  <li class="previous"><%= link_to("&larr; " + I18n.t("orcamentos.index.title"), "orcamentos") %></li>
-  <li class="next"><%= link_to(I18n.t("configuracoes.index.title") + " &rarr;", "configuracoes") %></li>
+   <li class="previous"><%= link_to("&larr; " + I18n.t("orcamentos.index.title"), "orcamentos") %></li>
+   <li class="next"><%= link_to(I18n.t("configuracoes.index.title") + " &rarr;", "configuracoes") %></li>
 </ul>

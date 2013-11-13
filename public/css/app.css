@@ -50,7 +50,7 @@ h1 {
 	-webkit-font-smoothing: antialiased;
 	font-size: 30px;
 	margin-bottom: 0;
-	font-family: helvetica, arial, freesans, clean, sans-serif;
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 300;
@@ -65,7 +65,7 @@ h2 {
 	border-bottom-style: solid;
 	border-bottom-width: 1px;
 	color: #546872;
-	font-family: helvetica, arial, freesans, clean, sans-serif;
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: bold;
@@ -78,7 +78,7 @@ h3 {
 	font-size: 18px;
 	margin: 25px 0 10px 0;
 
-	font-family: helvetica, arial, freesans, clean, sans-serif;
+	font-family:  "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: bold;
@@ -88,7 +88,7 @@ h3 {
 
 h4 {
 	-webkit-font-smoothing: antialiased;
-	font-family: helvetica, arial, freesans, clean, sans-serif;
+	font-family:  "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 
 	font-size: 14px;
 	color: #444;
@@ -102,7 +102,7 @@ h4 span{
 p{
 	-webkit-font-smoothing: antialiased;
 	color: #333;
-	font-family: helvetica, arial, freesans, clean, sans-serif;
+	font-family:  "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 	font-size: 15px;
 	font-style: normal;
 	font-variant: normal;
@@ -120,7 +120,7 @@ ol.table-of-contents{
 .pager { margin: 40px 0; font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;}
 
 span.code {
-	font-family: courier;
+	font-family:  "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 	border: 1px solid #CCC;
 	background-color: #EEE;
 	font-size: 14px;
@@ -204,7 +204,7 @@ p.more-info {
 	cursor: pointer;
 	display: block;
 	float: left;
-	font-family: sans-serif;
+	font-family:  "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 	font-size: 11px;
 	font-style: normal;
 	font-variant: normal;
@@ -264,8 +264,9 @@ div#banner{
 }
 
 .accordion-heading a{
-	font-weight: bolder;
+	font-weight: normal;
 	text-decoration: none;
+	background-color:#DADADA;
 	color: black;	
 	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 	margin-left: 15px;
@@ -273,9 +274,10 @@ div#banner{
 }
 .accordion-inner {
 	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
-	background-color: #eee;
+	background-color:white;
 }
 .accordion-inner ul {
+	background-color:white;
 	list-style: none;
 	margin: 0;
 }
@@ -465,8 +467,6 @@ p.note {
             border-radius: 4px;
 }
 
-
-
 #navegador li {
   display:inline;
 }
@@ -490,6 +490,93 @@ p.note {
   border:1px solid black ;
   border-radius:10px;
 }
+
+.metro-surface{
+	padding: 40px 0px 0px 0px;
+}
+
+.metro-tile {
+	background-color: #2B5797;
+	border-color: #2B5797;
+	width: 150px;
+	height: 40px;
+	padding: 5px;
+	color: #FFF;
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	font-size: 12px;
+	font-weight: ligther;
+	border-width: 3px;
+	border-style: solid;
+	cursor: pointer;
+	-webkit-transition: 0.1s all;
+	-moz-transition: 0.1s all;
+	-ms-transition: 0.1s all;
+	transition: 0.1s all;
+}
+.metro-tile-fluxo {
+	background-color: #2B5797;
+	border-color: #2B5797;
+	width: 150px;
+	height: 40px;
+	padding: 5px;
+	color: #FFF;
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	font-weight: light;
+	border-style: solid;
+	cursor: pointer;
+	-webkit-transition: 0.1s all;
+	-moz-transition: 0.1s all;
+	-ms-transition: 0.1s all;
+	transition: 0.1s all;
+}
+
+.metro-tile-small {
+	width: 75px;
+	height: 40px;
+}
+
+.metro-surface a:hover  {
+	text-decoration: none;
+}
+
+div.metro-tile:hover {
+	-webkit-transform: scale(0.97) perspective(400px) rotateY(0deg) rotateX(0deg);
+	-moz-transform: scale(0.97) perspective(400px) rotateY(0deg) rotateX(0deg);
+	-ms-transform: scale(0.97) perspective(400px) rotateY(0deg) rotateX(0deg);
+	transform: scale(0.97) perspective(400px) rotateY(0deg) rotateX(0deg);
+	border-width: 3px;
+	border-style:solid; 
+}
+
+div.metro-tile-fluxo:hover {
+	-webkit-transform: scale(0.97) perspective(400px) rotateY(0deg) rotateX(0deg);
+	-moz-transform: scale(0.97) perspective(400px) rotateY(0deg) rotateX(0deg);
+	-ms-transform: scale(0.97) perspective(400px) rotateY(0deg) rotateX(0deg);
+	transform: scale(0.97) perspective(400px) rotateY(0deg) rotateX(0deg);
+	border-width: 3px;
+	border-style:solid; 
+}
+
+.metro-tile-green {
+	background-color:#00A300;
+	border-color:#00A300;
+}
+.metro-tile-red {
+ background-color: #B91D47;
+	border-color: #B91D47;;
+}
+.metro-tile-teal {
+ background-color: #00ABA9;
+	border-color: #00ABA9;;
+}
+.metro-tile-orange {
+ background-color: #F09609;
+	border-color: #F09609;;
+}
+
+  
 
 
 
@@ -558,7 +645,7 @@ p.note {
 		margin: 0 0 5px 0;
 	}
 	.sitemap h2 {
-		font-family: "Lucida Grande", Verdana, sans-serif;
+		font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 		font-size: 10px;
 		color: #777777;
 		margin: 0 0 20px 0;

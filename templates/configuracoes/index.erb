@@ -1,24 +1,82 @@
-<center><h1><%= I18n.t("configuracoes.index.title") %></h1></center>
-<p class="more-info"><%= I18n.t("general.updated_at", :date => "06/03/2013") %></p>
+<center>
+   <h1><%= I18n.t("configuracoes.index.title") %></h1>
+</center>
+<p class="more-info"><%= I18n.t("general.updated_at", :date => "07/11/2013") %></p>
+<h3><%= I18n.t("general.index") %></h3>
 
 
 <!--Indice -->
-<h3><%= I18n.t("general.index") %></h3>
-<div id="navegador" style="margin-left:20%;">
-	<ul>
-            <li><a href="#meus_dados_inner"><%= I18n.t("configuracoes.index.table_of_contents.meus_dados") %></a></li>
-			<li><a href="#lista_produtos_inner"><%= I18n.t("configuracoes.index.table_of_contents.lista_produtos") %></a></li>		
-			<li><a href="#convidar_fornecedor_inner"><%= I18n.t("configuracoes.index.table_of_contents.convidar_fornecedor") %></a></li>
-			<br/><br/>
-			<li><a href="#cadastro_local_atendimento_inner"><%= I18n.t("configuracoes.index.table_of_contents.cadastro_local_atendimento") %></a></li>
-			<li><a href="#cadastro_prestador_inner"><%= I18n.t("configuracoes.index.table_of_contents.cadastro_prestador") %></a></li>
-			<br/><br/>
-			<li><a href="#pesquisa_local_atendimento_inner"><%= I18n.t("configuracoes.index.table_of_contents.pesquisa_local_atendimento") %></a></li>
-			<li><a href="#pesquisa_forncedor_inner"><%= I18n.t("configuracoes.index.table_of_contents.pesquisa_forncedor") %></a></li>
-			<br/><br/>
-			<li><a href="#pesquisa_prestador_inner"><%= I18n.t("configuracoes.index.table_of_contents.pesquisa_prestador")%></a></li>
-			<li><a href="#manutencao_regioes_inner"><%= I18n.t("configuracoes.index.table_of_contents.manutencao_regioes")%></a></li>
-  </ul>
+<div class="metro-surface">
+   <center>
+      <table>
+         <tr>
+            <td>
+               <a href="#meus_dados_inner">
+                  <div class="metro-tile   "><%= I18n.t("configuracoes.index.table_of_contents.meus_dados") %></div>
+               </a>
+            </td>
+            <td>
+               <a href="#lista_produtos_inner">
+                  <div class="metro-tile metro-tile-green"><%= I18n.t("configuracoes.index.table_of_contents.lista_produtos") %></div>
+               </a>
+            </td>
+            <td>
+               <div class="metro-tile metro-tile-small metro-tile-teal"></div>
+            </td>
+            <td>
+               <a href="#convidar_fornecedor_inner">
+                  <div class="metro-tile "><%= I18n.t("configuracoes.index.table_of_contents.convidar_fornecedor") %></div>
+               </a>
+            </td>
+         </tr>
+      </table>
+      <table>
+         <tr>
+            <td>
+               <a href="#cadastro_local_atendimento_inner">
+                  <div class="metro-tile metro-tile-teal"><%= I18n.t("configuracoes.index.table_of_contents.cadastro_local_atendimento") %></div>
+               </a>
+            </td>
+            <td>
+               <div class="metro-tile metro-tile-small metro-tile-orange"></div>
+            </td>
+            <td>
+               <a href="#cadastro_prestador_inner">
+                  <div class="metro-tile "><%= I18n.t("configuracoes.index.table_of_contents.cadastro_prestador") %></div>
+               </a>
+            </td>
+            <td>
+               <a href="#pesquisa_local_atendimento_inner">
+                  <div class="metro-tile metro-tile-teal"><%= I18n.t("configuracoes.index.table_of_contents.pesquisa_local_atendimento") %></div>
+               </a>
+            </td>
+         </tr>
+      </table>
+      <table>
+         <tr>
+            <td>
+               <a href="#pesquisa_forncedor_inner">
+                  <div class="metro-tile "><%= I18n.t("configuracoes.index.table_of_contents.pesquisa_forncedor") %></div>
+               </a>
+            </td>
+            <td>
+               <a href="#pesquisa_prestador_inner">
+                  <div class="metro-tile  metro-tile-red"><%= I18n.t("configuracoes.index.table_of_contents.pesquisa_prestador")%></div>
+               </a>
+            </td>
+            <td>
+               <a href="#pesquisa_representante_inner">
+                  <div class="metro-tile  metro-tile-teal"><%= I18n.t("configuracoes.index.table_of_contents.pesquisa_representante")%></div>
+               </a>
+            </td>
+            <td>
+               <a href="#manutencao_regioes_inner">
+                  <div class="metro-tile metro-tile-small metro-tile-green"><%= I18n.t("configuracoes.index.table_of_contents.manutencao_regioes")%></div>
+               </a>
+            </td>
+         </tr>
+      </table>
+   </center>
 </div>
 
 
@@ -26,14 +84,14 @@
 <div id ="meus_dados" > &nbsp </div>
 <h2 id="meus_dados_inner"><%= I18n.t("configuracoes.index.table_of_contents.meus_dados") %></h2>
 <div class="row-fluid">
-	<center><img src="/img/configuracoes/configuracoes_meus_dados.jpg" /></center>
-	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.meus_dados.item_1") %></p>
-	<br/><br/>
-	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("configuracoes.index.meus_dados.item_2") %></p>
-	<center><img src="/img/configuracoes/meus_dados.jpg" /></center>
-	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.meus_dados.item_3") %></p>
-	<br/><br/>
-	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("configuracoes.index.meus_dados.item_4") %></p>
+   <center><img src="/img/configuracoes/configuracoes_meus_dados.png" /></center>
+   <p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.meus_dados.item_1") %></p>
+   <br/><br/>
+   <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("configuracoes.index.meus_dados.item_2") %></p>
+   <center><img src="/img/configuracoes/meus_dados.png" /></center>
+   <p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.meus_dados.item_3") %></p>
+   <br/><br/>
+   <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("configuracoes.index.meus_dados.item_4") %></p>
 </div>
 <br/><br/><br/><br/>
 
@@ -42,16 +100,16 @@
 <div id ="lista_produtos" > &nbsp </div>
 <h2 id="lista_produtos_inner"><%= I18n.t("configuracoes.index.table_of_contents.lista_produtos") %></h2>
 <div class="row-fluid">
-	<center><img src="/img/configuracoes/configuracoes_lista_produtos.jpg" /></center>
-	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.lista_produtos.item_1") %></p>
-	<br/><br/>
-	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("configuracoes.index.lista_produtos.item_2") %></p>
-	<center><img src="/img/configuracoes/lista_produtos.jpg" /></center>
-	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.lista_produtos.item_3") %></p>
-	<br/><br/>
-	<p style="text-indent: 3em; text-align: justify;"><%= I18n.t("configuracoes.index.lista_produtos.item_4") %></p>
-	<center><img src="/img/configuracoes/lista_produtos2.jpg" /></center>
-	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.lista_produtos.item_5") %></p>
+   <center><img src="/img/configuracoes/configuracoes_lista_produtos.png" /></center>
+   <p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.lista_produtos.item_1") %></p>
+   <br/><br/>
+   <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("configuracoes.index.lista_produtos.item_2") %></p>
+   <center><img src="/img/configuracoes/lista_produtos.png" /></center>
+   <p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.lista_produtos.item_3") %></p>
+   <br/><br/>
+   <p style="text-indent: 3em; text-align: justify;"><%= I18n.t("configuracoes.index.lista_produtos.item_4") %></p>
+   <center><img src="/img/configuracoes/lista_produtos2.png" /></center>
+   <p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.lista_produtos.item_5") %></p>
 </div>
 <br/><br/><br/><br/>
 
@@ -60,12 +118,12 @@
 <div id ="convidar_fornecedor" > &nbsp </div>
 <h2 id="convidar_fornecedor_inner"><%= I18n.t("configuracoes.index.table_of_contents.convidar_fornecedor") %></h2>
 <div class="row-fluid">
-	<center><img src="/img/configuracoes/.jpg"  /></center>
-	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.convidar_fornecedor.item_1") %></p>
-	<br/><br/>
-	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("configuracoes.index.convidar_fornecedor.item_2") %></p>
-	<center><img src="/img/configuracoes/convidarfornecedor2.png"/></center>
-	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.convidar_fornecedor.item_3") %></p>
+   <center><img src="/img/configuracoes/configuracoes_convidar_fornecedor.png"  /></center>
+   <p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.convidar_fornecedor.item_1") %></p>
+   <br/><br/>
+   <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("configuracoes.index.convidar_fornecedor.item_2") %></p>
+   <center><img src="/img/configuracoes/convidarfornecedor2.png"/></center>
+   <p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.convidar_fornecedor.item_3") %></p>
 </div>
 <br/><br/><br/><br/>
 
@@ -74,13 +132,13 @@
 <div id ="cadastro_local_atendimento" > &nbsp </div>
 <h2 id="cadastro_local_atendimento_inner"><%= I18n.t("configuracoes.index.table_of_contents.cadastro_local_atendimento") %></h2>
 <div class="row-fluid">
-	<center><img src="/img/configuracoes/cadastrolocalatendimento1.png"/></center>
-	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.cadastro_local_atendimento.item_1") %></p>
-	<br/><br/>
-	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("configuracoes.index.cadastro_local_atendimento.item_2") %></p>
-	<center><img src="/img/configuracoes/cadastro_local_atendimento.jpg"  /></center>
-	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.cadastro_local_atendimento.item_3") %></p>
-	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("configuracoes.index.cadastro_local_atendimento.item_4") %></p>
+   <center><img src="/img/configuracoes/configuracoes_cadastros_locais.png"/></center>
+   <p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.cadastro_local_atendimento.item_1") %></p>
+   <br/><br/>
+   <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("configuracoes.index.cadastro_local_atendimento.item_2") %></p>
+   <center><img src="/img/configuracoes/cadastro_local_atendimento.jpg"  /></center>
+   <p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.cadastro_local_atendimento.item_3") %></p>
+   <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("configuracoes.index.cadastro_local_atendimento.item_4") %></p>
 </div>
 <br/><br/><br/><br/>
 
@@ -89,12 +147,12 @@
 <div id ="cadastro_prestador" > &nbsp </div>
 <h2 id="cadastro_prestador_inner"><%= I18n.t("configuracoes.index.table_of_contents.cadastro_prestador") %></h2>
 <div class="row-fluid">
-	<center><img src="/img/configuracoes/cadastroprestador1.png" /></center>
-	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.cadastro_prestador.item_1") %></p>
-	<br/><br/>
-	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("configuracoes.index.cadastro_prestador.item_2") %></p>
-	<center><img src="/img/configuracoes/cadastro_prestador.jpg"  /></center>
-	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.cadastro_prestador.item_3") %></p>
+   <center><img src="/img/configuracoes/configuracoes_cadastros_prestadores.png" /></center>
+   <p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.cadastro_prestador.item_1") %></p>
+   <br/><br/>
+   <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("configuracoes.index.cadastro_prestador.item_2") %></p>
+   <center><img src="/img/configuracoes/cadastro_prestador.jpg"  /></center>
+   <p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.cadastro_prestador.item_3") %></p>
 </div>
 <br/><br/><br/><br/>
 
@@ -103,13 +161,13 @@
 <div id ="pesquisa_local_atendimento" > &nbsp </div>
 <h2 id="pesquisa_local_atendimento_inner"><%= I18n.t("configuracoes.index.table_of_contents.pesquisa_local_atendimento") %></h2>
 <div class="row-fluid">
-	<center><img src="/img/configuracoes/pesquisalocalatendimento1.png"  /></center>
-	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.pesquisa_local_atendimento.item_1") %></p>
-	<br/><br/>
-	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("configuracoes.index.pesquisa_local_atendimento.item_2") %></p>
-	<center><img src="/img/configuracoes/pesquisa_local_atendimento.jpg"  /></center>
-	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.pesquisa_local_atendimento.item_3") %></p>
-	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("configuracoes.index.pesquisa_local_atendimento.item_4") %></p>
+   <center><img src="/img/configuracoes/configuracoes_pesquisas_locais.png"  /></center>
+   <p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.pesquisa_local_atendimento.item_1") %></p>
+   <br/><br/>
+   <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("configuracoes.index.pesquisa_local_atendimento.item_2") %></p>
+   <center><img src="/img/configuracoes/pesquisa_local_atendimento.jpg"  /></center>
+   <p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.pesquisa_local_atendimento.item_3") %></p>
+   <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("configuracoes.index.pesquisa_local_atendimento.item_4") %></p>
 </div>
 <br/><br/><br/><br/>
 
@@ -118,12 +176,12 @@
 <div id ="pesquisa_forncedor" > &nbsp </div>
 <h2 id="pesquisa_forncedor_inner"><%= I18n.t("configuracoes.index.table_of_contents.pesquisa_forncedor") %></h2>
 <div class="row-fluid">
-	<center><img src="/img/configuracoes/pesquisafornecedor1.png" /></center>
-	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.pesquisa_forncedor.item_1") %></p>
-	<br/><br/>
-	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("configuracoes.index.pesquisa_forncedor.item_2") %></p>
-	<center><img src="/img/configuracoes/pesquisa_forncedor.jpg" /></center>
-	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.pesquisa_forncedor.item_3") %></p>
+   <center><img src="/img/configuracoes/configuracoes_pesquisas_fornecedores.png" /></center>
+   <p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.pesquisa_forncedor.item_1") %></p>
+   <br/><br/>
+   <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("configuracoes.index.pesquisa_forncedor.item_2") %></p>
+   <center><img src="/img/configuracoes/pesquisa_forncedor.jpg" /></center>
+   <p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.pesquisa_forncedor.item_3") %></p>
 </div>
 <br/><br/><br/><br/>
 
@@ -132,52 +190,66 @@
 <div id ="pesquisa_prestador" > &nbsp </div>
 <h2 id="pesquisa_prestador_inner"><%= I18n.t("configuracoes.index.table_of_contents.pesquisa_prestador") %></h2>
 <div class="row-fluid">
-	<center><img src="/img/configuracoes/.jpg" /></center>
-	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.pesquisa_prestador.item_1") %></p>
-	<br/><br/>
-	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("configuracoes.index.pesquisa_prestador.item_2") %></p>
-	<center><img src="/img/configuracoes/pesquisa_prestador.jpg" /></center>
-	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.pesquisa_prestador.item_3") %></p>
+   <center><img src="/img/configuracoes/configuracoes_pesquisas_prestadores.png" /></center>
+   <p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.pesquisa_prestador.item_1") %></p>
+   <br/><br/>
+   <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("configuracoes.index.pesquisa_prestador.item_2") %></p>
+   <center><img src="/img/configuracoes/pesquisa_prestador.jpg" /></center>
+   <p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.pesquisa_prestador.item_3") %></p>
 </div>
 <br/><br/><br/><br/>
 
 
-<!-- manutencao_regioes -->
+<!-- pesquisa_representante -->
+<div id ="pesquisa_representante" > &nbsp </div>
+<h2 id="pesquisa_representante_inner"><%= I18n.t("configuracoes.index.table_of_contents.pesquisa_representante") %></h2>
+<div class="row-fluid">
+   <center><img src="/img/configuracoes/configuracoes_pesquisas_representantes.png" /></center>
+   <p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.pesquisa_representante.item_1") %></p>
+   <br/><br/>
+   <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("configuracoes.index.pesquisa_representante.item_2") %></p>
+   <center><img src="/img/configuracoes/.jpg" /></center>
+   <p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.pesquisa_representante.item_3") %></p>
+</div>
+<br/><br/><br/><br/>
+
+
+<!-- manutencao_regioes 
 <div id ="manutencao_regioes" > &nbsp </div>
 <h2 id="manutencao_regioes_inner"><%= I18n.t("configuracoes.index.table_of_contents.manutencao_regioes") %></h2>
 <div class="row-fluid">
-	<center><img src="/img/configuracoes/.jpg"  /></center>
-	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.manutencao_regioes.item_1") %></p>
-	<br/><br/>
-	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("configuracoes.index.manutencao_regioes.item_2") %></p>
-	<center><img src="/img/configuracoes/.jpg"  /></center>
-	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.manutencao_regioes.item_3") %></p>
-	<br/><br/>
-	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("configuracoes.index.manutencao_regioes.item_4") %></p>
-	<center><img src="/img/configuracoes/.jpg"  /></center>
-	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.manutencao_regioes.item_5") %></p>
-	<br/><br/>
-	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("configuracoes.index.manutencao_regioes.item_6") %></p>
-	<div style="margin-right:10%;margin-left:10%">
-		<ul class="lista" style="text-align: justify;">
-			<li> <%= I18n.t("configuracoes.index.manutencao_regioes.item_7") %></p></li>
-			<br/>
-			<li> <%= I18n.t("configuracoes.index.manutencao_regioes.item_8") %></p></li>
-		</ul>
-	</div>
-	<center><img src="/img/configuracoes/.jpg"  /></center>
-	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.manutencao_regioes.item_9") %></p>
-	<br/><br/>
-	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("configuracoes.index.manutencao_regioes.item_10") %></p>
-	<center><img src="/img/configuracoes/.jpg"  /></center>
-	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.manutencao_regioes.item_11") %></p>
-	<br/><br/>
+   <center><img src="/img/configuracoes/.jpg"  /></center>
+   <p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.manutencao_regioes.item_1") %></p>
+   <br/><br/>
+   <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("configuracoes.index.manutencao_regioes.item_2") %></p>
+   <center><img src="/img/configuracoes/.jpg"  /></center>
+   <p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.manutencao_regioes.item_3") %></p>
+   <br/><br/>
+   <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("configuracoes.index.manutencao_regioes.item_4") %></p>
+   <center><img src="/img/configuracoes/.jpg"  /></center>
+   <p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.manutencao_regioes.item_5") %></p>
+   <br/><br/>
+   <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("configuracoes.index.manutencao_regioes.item_6") %></p>
+   <div style="margin-right:10%;margin-left:10%">
+      <ul class="lista" style="text-align: justify;">
+         <li> <%= I18n.t("configuracoes.index.manutencao_regioes.item_7") %></p></li>
+         <br/>
+         <li> <%= I18n.t("configuracoes.index.manutencao_regioes.item_8") %></p></li>
+      </ul>
+   </div>
+   <center><img src="/img/configuracoes/.jpg"  /></center>
+   <p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.manutencao_regioes.item_9") %></p>
+   <br/><br/>
+   <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("configuracoes.index.manutencao_regioes.item_10") %></p>
+   <center><img src="/img/configuracoes/.jpg"  /></center>
+   <p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("configuracoes.index.manutencao_regioes.item_11") %></p>
+   <br/><br/>
 </div>
 <br/><br/><br/><br/>
-
+-->
 
 <!--Botão proximo -->
 <ul class="pager">
-  <li class="previous"><%= link_to("&larr; " + I18n.t("relatorios.index.title"), "relatorios") %></li>
-  <li class="next"><%= link_to(I18n.t("portalopme.index.title") + " &rarr;", "portalopme") %></li>
+   <li class="previous"><%= link_to("&larr; " + I18n.t("relatorios.index.title"), "relatorios") %></li>
+   <li class="next"><%= link_to(I18n.t("portalopme.index.title") + " &rarr;", "portalopme") %></li>
 </ul>

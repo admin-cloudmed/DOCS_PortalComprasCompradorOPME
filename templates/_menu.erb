@@ -1,5 +1,4 @@
 <div>
-
    <!-- Portal OPME --> 
   <div class="accordion-group">
     <div class="accordion-heading">
@@ -104,7 +103,10 @@
 			<li><a href="#"><%= link_to(I18n.t("orcamentos.index.table_of_contents.divergencias_fornecedor"), "orcamentos#divergencias_fornecedor") %></a></li>
 			<li><a href="#"><%= link_to(I18n.t("orcamentos.index.table_of_contents.abertos"), "orcamentos#abertos") %></a></li>
 			<li><a href="#"><%= link_to(I18n.t("orcamentos.index.table_of_contents.auditor"), "orcamentos#auditor") %></a></li>
+			<li><a href="#"><%= link_to(I18n.t("orcamentos.index.table_of_contents.nao_aprovado"), "orcamentos#nao_aprovado") %></a></li>
 			<li><a href="#"><%= link_to(I18n.t("orcamentos.index.table_of_contents.local_atendimento"), "orcamentos#local_atendimento") %></a></li>
+			<li><a href="#"><%= link_to(I18n.t("orcamentos.index.table_of_contents.pendentes_fornecedor"), "orcamentos#pendentes_fornecedor") %></a></li>
+			<li><a href="#"><%= link_to(I18n.t("orcamentos.index.table_of_contents.cancelado"), "orcamentos#cancelado") %></a></li>
 			<li><a href="#"><%= link_to(I18n.t("orcamentos.index.table_of_contents.nf_recebida"), "orcamentos#nf_recebida") %></a></li>
 			<li><a href="#"><%= link_to(I18n.t("orcamentos.index.table_of_contents.rep_titulo"), "orcamentos#rep_titulo") %></a></li>
 			<li><a href="#"><%= link_to(I18n.t("orcamentos.index.table_of_contents.conf_faturamento"), "orcamentos#conf_faturamento") %></a></li>
@@ -126,6 +128,8 @@
             <li><a href="#"><%= link_to(I18n.t("relatorios.index.table_of_contents.produtos_vencidos"), "relatorios#produtos_vencidos") %></a></li>
             <li><a href="#"><%= link_to(I18n.t("relatorios.index.table_of_contents.cotacao"), "relatorios#cotacao") %></a></li>
             <li><a href="#"><%= link_to(I18n.t("relatorios.index.table_of_contents.faturamento"), "relatorios#faturamento") %></a></li>
+            <li><a href="#"><%= link_to(I18n.t("relatorios.index.table_of_contents.top_produtos"), "relatorios#top_produtos") %></a></li>
+            <li><a href="#"><%= link_to(I18n.t("relatorios.index.table_of_contents.top_fornecedores"), "relatorios#top_fornecedores") %></a></li>
         </ul>
       </div>
     </div>
@@ -148,10 +152,10 @@
 			<li><a href="#"><%= link_to(I18n.t("configuracoes.index.table_of_contents.pesquisa_local_atendimento"), "configuracoes#pesquisa_local_atendimento") %></a></li>
 			<li><a href="#"><%= link_to(I18n.t("configuracoes.index.table_of_contents.pesquisa_forncedor"), "configuracoes#pesquisa_forncedor") %></a></li>
 			<li><a href="#"><%= link_to(I18n.t("configuracoes.index.table_of_contents.pesquisa_prestador"), "configuracoes#pesquisa_prestador") %></a></li>
+			<li><a href="#"><%= link_to(I18n.t("configuracoes.index.table_of_contents.pesquisa_representante"), "configuracoes#pesquisa_representante") %></a></li>
 			<li><a href="#"><%= link_to(I18n.t("configuracoes.index.table_of_contents.manutencao_regioes"), "configuracoes#manutencao_regioes") %></a></li>
         </ul>
       </div>
     </div>
-  </div>
-  
+  </div> 
 </div> 

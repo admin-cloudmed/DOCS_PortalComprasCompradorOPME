@@ -1,62 +1,85 @@
-<center><h1><%= I18n.t("acoes_disponiveis.index.title") %></h1></center>
-<p class="more-info"><%= I18n.t("general.updated_at", :date => "06/03/2013") %></p>
+<center>
+   <h1><%= I18n.t("acoes_disponiveis.index.title") %></h1>
+</center>
+<p class="more-info"><%= I18n.t("general.updated_at", :date => "07/11/2013") %></p>
 <h3><%= I18n.t("general.index") %></h3>
 
+
 <!--Indice -->
-<div id="navegador">
- 	<center>
-		<ul>
-			<li><a href="#agendar_fornecedor_inner"><%= I18n.t("acoes_disponiveis.index.table_of_contents.agendar_fornecedor") %></a></li>
-			<li><a href="#enviar_faturamento_inner"><%= I18n.t("acoes_disponiveis.index.table_of_contents.enviar_faturamento") %></a></li>
-			<li><a href="#confirmar_faturamento_inner"><%= I18n.t("acoes_disponiveis.index.table_of_contents.confirmar_faturamento") %></a></li>
-			<li><a href="#cancelar_orcamento_inner"><%= I18n.t("acoes_disponiveis.index.table_of_contents.cancelar_orcamento") %></a></li>
-		</ul>
-	</center>
+<div class="metro-surface">
+   <center>
+      <table>
+         <tr>
+            <td>
+               <a href="#agendar_fornecedor_inner">
+                  <div class="metro-tile "><%= I18n.t("acoes_disponiveis.index.table_of_contents.agendar_fornecedor") %></div>
+               </a>
+            </td>
+            <td>
+               <a href="#enviar_faturamento_inner">
+                  <div class="metro-tile   metro-tile-green"><%= I18n.t("acoes_disponiveis.index.table_of_contents.enviar_faturamento") %></div>
+               </a>
+            </td>
+         </tr>
+      </table>
+      <table>
+         <tr>
+            <td>
+               <a href="#confirmar_faturamento_inner">
+                  <div class="metro-tile l  metro-tile-red"><%= I18n.t("acoes_disponiveis.index.table_of_contents.confirmar_faturamento") %></div>
+               </a>
+            </td>
+            <td>
+               <a href="#cancelar_orcamento_inner">
+                  <div class="metro-tile   metro-tile-teal"><%= I18n.t("acoes_disponiveis.index.table_of_contents.cancelar_orcamento") %></div>
+               </a>
+            </td>
+         </tr>
+      </table>
+   </center>
 </div>
+
 
 <!-- Agendar com Fornecedor -->
 <div id ="agendar_fornecedor" > &nbsp </div>
 <h2 id="agendar_fornecedor_inner"><%= I18n.t("acoes_disponiveis.index.table_of_contents.agendar_fornecedor") %></h2>
 <div class="row-fluid">
-	<center><img src="/img/acoes_disponiveis/.jpg" alt="Pendente Fornecedor" /></center>
-	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("acoes_disponiveis.index.agendar_fornecedor.item_1") %></p>
-	<br/><br/>
-	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("acoes_disponiveis.index.agendar_fornecedor.item_2") %></p>
-	<center><img src="/img/acoes_disponiveis/.jpg" alt="Pendente Fornecedor" /></center>
-	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("acoes_disponiveis.index.agendar_fornecedor.item_3") %></p>
-	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("acoes_disponiveis.index.agendar_fornecedor.item_4") %></p>
+   <center><img src="/img/acoes_disponiveis/acoes_disponiveis_agendar.png"  /></center>
+   <p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("acoes_disponiveis.index.agendar_fornecedor.item_1") %></p>
+   <br/><br/>
+   <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("acoes_disponiveis.index.agendar_fornecedor.item_2") %></p>
+   <center><img src="/img/acoes_disponiveis/.jpg"  /></center>
+   <p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("acoes_disponiveis.index.agendar_fornecedor.item_3") %></p>
+   <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("acoes_disponiveis.index.agendar_fornecedor.item_4") %></p>
 </div>
-<br/><br/><br/><br/>
+
 
 
 <!-- Enviar P/ Faturamento -->
 <div id ="enviar_faturamento" > &nbsp </div>
 <h2 id="enviar_faturamento_inner"><%= I18n.t("acoes_disponiveis.index.table_of_contents.enviar_faturamento") %></h2>
 <div class="row-fluid">
-	<center><img src="/img/acoes_disponiveis/.jpg" alt="Pendente Fornecedor" /></center>
-	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("acoes_disponiveis.index.enviar_faturamento.item_1") %></p>
-	<br/><br/>
-	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("acoes_disponiveis.index.enviar_faturamento.item_2") %></p>
-	<center><img src="/img/acoes_disponiveis/.jpg" alt="Pendente Fornecedor" /></center>
-	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("acoes_disponiveis.index.enviar_faturamento.item_3") %></p>
-	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("acoes_disponiveis.index.enviar_faturamento.item_4") %></p>
+   <center><img src="/img/acoes_disponiveis/acoes_disponiveis_faturar.png"  /></center>
+   <p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("acoes_disponiveis.index.enviar_faturamento.item_1") %></p>
+   <br/><br/>
+   <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("acoes_disponiveis.index.enviar_faturamento.item_2") %></p>
+   <center><img src="/img/acoes_disponiveis/.jpg"  /></center>
+   <p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("acoes_disponiveis.index.enviar_faturamento.item_3") %></p>
+   <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("acoes_disponiveis.index.enviar_faturamento.item_4") %></p>
 </div>
-<br/><br/><br/><br/>
+
 
 
 <!-- Confirmar Faturamento -->
 <div id ="confirmar_faturamento" > &nbsp </div>
 <h2 id="confirmar_faturamento_inner"><%= I18n.t("acoes_disponiveis.index.table_of_contents.confirmar_faturamento") %></h2>
 <div class="row-fluid">
-	<center><img src="/img/acoes_disponiveis/.jpg"  /></center>
-	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("acoes_disponiveis.index.confirmar_faturamento.item_1") %></p>
-	<br/><br/>
-	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("acoes_disponiveis.index.confirmar_faturamento.item_2") %></p>
-	<center><img src="/img/acoes_disponiveis/.jpg" /></center>
-	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("acoes_disponiveis.index.confirmar_faturamento.item_3") %></p>
-	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("acoes_disponiveis.index.confirmar_faturamento.item_4") %></p>
+   <center><img src="/img/acoes_disponiveis/acoes_disponiveis_confirmar_faturamento.png"  /></center>
+   <p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("acoes_disponiveis.index.confirmar_faturamento.item_1") %></p>
+   <br/><br/>
+   <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("acoes_disponiveis.index.confirmar_faturamento.item_2") %></p>
+   <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("acoes_disponiveis.index.confirmar_faturamento.item_4") %></p>
 </div>
-<br/><br/><br/><br/>
 
 
 
@@ -64,19 +87,18 @@
 <div id ="cancelar_orcamento" > &nbsp </div>
 <h2 id="cancelar_orcamento_inner"><%= I18n.t("acoes_disponiveis.index.table_of_contents.cancelar_orcamento") %></h2>
 <div class="row-fluid">
-	<center><img src="/img/acoes_disponiveis/.jpg" alt="Pendente Fornecedor" /></center>
-	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("acoes_disponiveis.index.cancelar_orcamento.item_1") %></p>
-	<br/><br/>
-	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("acoes_disponiveis.index.cancelar_orcamento.item_2") %></p>
-	<center><img src="/img/acoes_disponiveis/.jpg" alt="Pendente Fornecedor" /></center>
-	<p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("acoes_disponiveis.index.cancelar_orcamento.item_3") %></p>
-	<p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("acoes_disponiveis.index.cancelar_orcamento.item_4") %></p>
+   <center><img src="/img/acoes_disponiveis/acoes_disponiveis_cancelar.png"  /></center>
+   <p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("acoes_disponiveis.index.cancelar_orcamento.item_1") %></p>
+   <br/><br/>
+   <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("acoes_disponiveis.index.cancelar_orcamento.item_2") %></p>
+   <center><img src="/img/acoes_disponiveis/.jpg"  /></center>
+   <p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("acoes_disponiveis.index.cancelar_orcamento.item_3") %></p>
+   <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("acoes_disponiveis.index.cancelar_orcamento.item_4") %></p>
 </div>
-<br/><br/><br/><br/>
 
 
 <!--Botão proximo -->
 <ul class="pager">
-  <li class="previous"><%= link_to("&larr; " + I18n.t("menu_principal.index.title"), "menu_principal") %></li>
-  <li class="next"><%= link_to(I18n.t("solicitar_opme.index.title") + " &rarr;", "solicitar_opme") %></li>
+   <li class="previous"><%= link_to("&larr; " + I18n.t("menu_principal.index.title"), "menu_principal") %></li>
+   <li class="next"><%= link_to(I18n.t("solicitar_opme.index.title") + " &rarr;", "solicitar_opme") %></li>
 </ul>

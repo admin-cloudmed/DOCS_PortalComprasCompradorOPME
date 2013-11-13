@@ -187,6 +187,8 @@
         nf_recebida: "Notas Fiscais Recebidas"
         rep_titulo: "Aguardando Reprocessamento de Título"
         conf_faturamento: "Aguardando Confirmação de Faturamento"
+        nao_aprovado: "Não Aprovado"
+        cancelado: "Cancelado"
       localizar: 
         item_1: "Menu > Orçamentos > Localizar Orçamento"
         item_2: "Em 'Localizar Orçamentos', o Portal de Compras oferece uma variedade de filtros para que você encontre seus orçamentos da maneira mais prática e rápida. Confira os diferentes tipos de filtros criados para facilitar a busca: Nº de Orçamento, a Data do Pedido, o Solicitante, a Data Prevista, a Origem, a Data de última Movimentação, entre outros:"
@@ -284,6 +286,16 @@
         item_2: "O orçamento entra nesse status após passar por <a href='orcamentos#notas_fiscais' target='blank' class='external'>Agurdando Notas Fiscais</a> e um FORNECEDOR anexa os arquivos fiscais à ele, seja XML ou PDF, assim, é necessário fazer a validação desses arquivos para o fatuamento do orçamento."
         item_3: "Orçamento Aguardando Confirmação de Faturamento"
         item_4: "Utilizando a ação que estará disponível <a href='acoes_disponiveis#confirmar_faturamento' target='blank' class='external'>Confirma Faturamento</a> você confirma que os arquivos anexados pelo FORNECEDOR estão corretos e libera o orçamento para seu faturamento."
+      nao_aprovado:
+        item_1: "Menu > Orçamentos > Não Aprovado (Negado)"
+        item_2: "Quando o orçamento esta no status  <a href='orcamentos#auditor' target='blank' class='external'>Pendente com o Auditor</a> ele tem a opção de negar um orçamento."
+        item_3: "Veja abaixo quando um orçamento é negado e entra nesse status, repare que você verá a justificativa dada pelo Auditor além de todo seu histórico e arquivos anexos. :)"
+        item_4: "Orçamento negado pelo Auditor."
+      cancelado:
+        item_1: "Menu > Orçamentos > Cancelados"
+        item_2: "Em qualquer status que o orçamento estiver, você, dependendo de suas permissões no sistema, você terá essa opção disponível."
+        item_3: "Sempre ao cancelar um orçamento, o Portal de Compras solicitará uma justificativa para isso e essa justificativa ficará visivel para qualquer usuário que posteriormente acessar este orçamento."
+        item_4: "Orçamento Cancelado."
   relatorios:
    index:
       title: "Relatórios"
@@ -293,6 +305,8 @@
         produtos_vencidos: "Produtos Vencidos"
         cotacao: "Cotação"
         faturamento: "Faturamento"
+        top_produtos: "Top Produtos"
+        top_fornecedores: "Top Fornecedores"
         nota: "Não encontrou o relatório que seria essencial para o seu negócio? Fale com a gente! Queremos ouvir você, para que possamos evoluir nossa ferramenta!"
       economia:
         item_1: "Menu > Relatórios > Economia"
@@ -319,6 +333,18 @@
         item_3: "Pesquisa Relatório de Faturamento"
         item_4: "Assim como nos outros relatórios, esta seção disponibiliza vários tipos de campos de busca, tais como: período, número do orçamento, empresa, entre outros."
         item_5: "Relatório de Faturamento"
+      top_produtos:
+        item_1: "Menu > Relatórios > Top Produtos"
+        item_2: "Acessando o menu acima, você chega até o seguinte relatório de produtos:"
+        item_3: "Filtros Relatório Top Produtos"
+        item_4: "O relatório 'Top Produtos' te informa os produtos que foram comprados em maior quantidade no periodo selecionado, além da ordenação decrescente da quantidade, o relatório te informa também o valor gasto com esse produto.(Lembrramos também que você tem a opção de exportar esse relatório para uma planilha em Excel ;) ) Veja abaixo:"
+        item_5: "Relatório Top Produtos"
+      top_fornecedores:
+        item_1: "Menu > Relatórios > Top Fornecedores"
+        item_2: "Acessando o menu acima e clicando em 'Top Fornecedores' você chegará à tela abaixo que solicita um período para gerar o relatório, veja:"
+        item_3: "Filtros Relatório Top Fornecedores"
+        item_4: "Selecionando um período e clicando dem 'Gerar Relatório' o Portal de Compra elecará os fornecedores que mais fecharam pedidos com você, exibindo, além da quantidade de produtos o valor total negociado com cada fornecedor. Tudo isso podendo ser exportado para Excel, veja:"
+        item_5: "Relatório Top Fornecedores"
   configuracoes:
    index:
       title: "Configurações"
@@ -327,11 +353,12 @@
         meus_dados: "Meus Dados"
         lista_produtos: "Lista de Produtos"
         convidar_fornecedor: "Convidar Fornecedor"
-        cadastro_local_atendimento: " Cadastro >Local Atendimento"
-        cadastro_prestador: "Cadastro >Prestador"
-        pesquisa_local_atendimento: "Pesquisa >Local Atendimento"
-        pesquisa_forncedor: "Pesquisa >Fornecedor"
-        pesquisa_prestador: "Pesquisa >Prestador"
+        cadastro_local_atendimento: " Cadastro > Local Atendimento"
+        cadastro_prestador: "Cadastro > Prestador"
+        pesquisa_local_atendimento: "Pesquisa > Local Atendimento"
+        pesquisa_forncedor: "Pesquisa > Fornecedor"
+        pesquisa_prestador: "Pesquisa > Prestador"
+        pesquisa_representante: "Pesquisa > Representantes"
         manutencao_regioes: "Manutenção Regiões"
       meus_dados:
         item_1: "Menu > Configurações > Meus Dados"
@@ -368,8 +395,12 @@
         item_3: "Pesquisa Fornecedor"
       pesquisa_prestador:
         item_1: "Menu > Configurações > Pesquisa > Prestador"
-        item_2: "Semelhantes à pesquisa por Locais de Atendimento e Fornecedores, a pesquisa por Prestador disponibiliza a busca através do Código ou Nome do Prestador, e será exibida a seguinte tela:"
+        item_2: "Semelhante às pesquisas por Locais de Atendimento e Fornecedores, a pesquisa por Prestador disponibiliza a busca através do Código ou Nome do Prestador, e será exibida a seguinte tela:"
         item_3: "Pesquisa Prestador"
+      pesquisa_representante:
+        item_1: "Menu > Configurações > Pesquisa > Representante"
+        item_2: "Acessando o menu acima, você chega até a tela exibida abaixo. O Portal de Compras solicitará sempre algum filtro para fazer a pesquisa de representantes, veja abaixo, é solicitado ou o código do representante ou  seu nome."
+        item_3: "Pesquisa Representante"
       manutencao_regioes:
         item_1: "Menu > Configurações > Manutenção Regiões"
         item_2: "Acessando pelo menu acima, você chega até a tela de Manutenção de Regiões exibida logo abaixo. É aqui que faremos todas as configurações de regionalização do Portal de Compras, toda relação entre PRODUTOS X FORNECEDORES X COMPRADORES é feita aqui e essa configuração sobrepõe as configurações padrões do Portal de Compras onde todos os produtos, de qualquer fornecedor, pode ser vendido para qualquer comprador."
