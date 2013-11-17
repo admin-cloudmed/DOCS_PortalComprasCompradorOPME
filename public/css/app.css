@@ -1,49 +1,162 @@
-#commands {
-	margin-left: 0;
-	margin-bottom: 25px;
-}
-
-#commands li {
-	float: left;
-	list-style: none;
-	width: 250px;
-}
-
-#display { margin-top: 45px; }
-
-nav#topics {
-	margin-top: 16px;
-}
-
-a.active {
-	font-weight: bolder;
-}
-
-nav#topics p {
-	font-weight: bolder;
-	font-size: 16px;
-	margin-bottom: 6px;
-}
-
-nav#topics ul {
-	margin: 0 0 20px 15px;
-}
-
-nav#topics li {
-	list-style: none;
-	line-height: 30px;
-}
-
-html {
-	overflow-y: scroll;
-}
 
 body > .navbar {
 	font-size: 13px;
 }
 
+/*Menu Principal*/
+.containerm 
+{
+    padding: 0px;
+    width: 100%;
+}
+nav, ul, li, a  {margin: 0; padding: 0;}
+
+.toggleMenu {
+    display:  none;
+    padding: 10px 15px;
+    color: #fff;
+	background: #e8e3e3; /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(232, 227, 227, 0.95) 0%, rgba(246, 242, 242, 0.95) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(232, 227, 227, 0.95)), color-stop(100%,rgba(246, 242, 242, 0.95))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(232, 227, 227, 0.95) 0%,rgba(246, 242, 242, 0.95) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(232, 227, 227, 0.95) 0%,rgba(246, 242, 242, 0.95) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(232, 227, 227, 0.95) 0%,rgba(246, 242, 242, 0.95) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(232, 227, 227, 0.95) 0%,rgba(246, 242, 242, 0.95) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(232, 227, 227, 0.95)', endColorstr='rgba(246, 242, 242, 0.95)',GradientType=0 ); /* IE6-9 */
+	background-repeat: repeat-x;
+	border-color: #252525;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0);
+}
+.active{
+  background-color: #D8DFEA;
+}
+  
+  
+.nav {
+    list-style: none;
+     *zoom: 1;
+background: #e8e3e3; /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(232, 227, 227, 0.95) 0%, rgba(246, 242, 242, 0.95) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(232, 227, 227, 0.95)), color-stop(100%,rgba(246, 242, 242, 0.95))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(232, 227, 227, 0.95) 0%,rgba(246, 242, 242, 0.95) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(232, 227, 227, 0.95) 0%,rgba(246, 242, 242, 0.95) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(232, 227, 227, 0.95) 0%,rgba(246, 242, 242, 0.95) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(232, 227, 227, 0.95) 0%,rgba(246, 242, 242, 0.95) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(232, 227, 227, 0.95)', endColorstr='rgba(246, 242, 242, 0.95)',GradientType=0 ); /* IE6-9 */
+  background-repeat: repeat-x;
+  border-color: #252525;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0);
+}
+.nav:before,
+.nav:after {
+    content: " "; 
+    display: table; 
+}
+.nav:after {
+    clear: both;
+}
+.nav ul 
+{
+    list-style: none;
+    width: 9em;
+}
+.nav a {
+    padding: 10px 15px;
+	color:black;
+	font-weight: lighther;
+}
+.nav li {
+    position: relative;
+}
+.nav > li.last {
+    margin-right:100px;
+}
+.nav > li {
+    width:auto;
+    float: right;
+    border-bottom : 0px solid black;   
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.nav > li.hover{background-color:#E51400;}
+.nav > li > .parent {
+    background-image: url("images/downArrow.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.nav > li > a {display: block;}
+.nav > li > ul > li .parent {
+    background-image: url("images/downArrow.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.nav li  ul {
+    position: absolute;
+    left: -9999px;
+}
+.nav > li.hover > ul {
+    left: 0;
+}
+.nav li li.hover ul {
+    left: 100%;
+    top: 0;
+}
+.nav li li a {
+    display: block;
+    background: #003366;
+    position: relative;
+    z-index:100;
+    border-bottom: 1px solid black;
+}
+.nav > li > ul > li.hover{
+   background-color:#E51400;
+}
+.nav > li > ul > li.hover > a{
+   background-color:#E51400;
+}
+.nav li li li a {
+    background:#003366;
+    z-index:200;
+    border-bottom: 1px solid black;
+}
+.nav > li > ul > li.hover > ul > li.hover{background-color:#E51400;}
+.nav > li > ul > li.hover > ul > li.hover > a{
+   background-color:#E51400;
+}
+
+@media screen and (max-width: 983px) {
+    .active     {
+        display: block;
+    }
+    .nav > li     {
+        float: none;
+    }
+    .nav > li.last     {
+           margin-right:5px;
+    }
+    .nav > li > .parent {
+        background-position: 95% 50%;
+    }
+    .nav li li .parent {
+        background-image: url("images/downArrow.png");
+        background-repeat: no-repeat;
+        background-position: 95% 50%;
+    }
+    .nav ul {
+        display: block;
+        width: 100%;
+    }
+   .nav > li.hover > ul , .nav li li.hover ul {
+        position: static;
+    }
+
+}
+
+
 #top.container {
-	margin-bottom: 0px;
+	margin: 0px;
+	width:95%;
+	margin-left:20px;
 }
 
 h1 {
@@ -266,7 +379,7 @@ div#banner{
 .accordion-heading a{
 	font-weight: normal;
 	text-decoration: none;
-	background-color:#DADADA;
+	background-color:#D8DFEA;
 	color: black;	
 	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 	margin-left: 15px;
@@ -492,12 +605,12 @@ p.note {
 }
 
 .metro-surface{
-	padding: 40px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
 }
 
 .metro-tile {
-	background-color: #2B5797;
-	border-color: #2B5797;
+	background-color: #446FB1;
+	border-color: #446FB1;
 	width: 150px;
 	height: 40px;
 	padding: 5px;
@@ -514,8 +627,8 @@ p.note {
 	transition: 0.1s all;
 }
 .metro-tile-fluxo {
-	background-color: #2B5797;
-	border-color: #2B5797;
+	background-color: #446FB1;
+	border-color: #446FB1;
 	width: 150px;
 	height: 40px;
 	padding: 5px;
